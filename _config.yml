@@ -98,11 +98,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Seoul, KR"
-  email            : "dadanuna@gmail.com"
+  email            : 
   links:
-    - label: "Email"
+    - label: "dadanuna@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      #url: "mailto:dadanuna@gmail.com"
+      url: "mailto:dadanuna@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
