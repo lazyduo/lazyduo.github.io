@@ -116,8 +116,8 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dadanuna"
     - label: "dadanuna@gmail.com"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:dadanuna@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dadanuna@gmail.com"
 
 # Site Footer
 footer:
