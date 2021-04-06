@@ -1,6 +1,10 @@
 ## lazyduo.github.io
-2021-Jan-05
+2021-Apr-05
 
-    create http://lazyduo.github.io
-  
+    create https://lazyduo.github.io
+
+2021-Apr-06
+
+    jekyll minimal-mistakes
+    
 to be continued...
