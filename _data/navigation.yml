@@ -3,8 +3,8 @@ main:
   - title: "Thumbnail Generator"
     # url: /docs/quick-start-guide/
   - title: "Translate"
-  
+
   - title: "Blog"
     # url: /about/
   - title: "About"
-    # url: /year-archive/
+    url: /about/
