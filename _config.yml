@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : # "/assets/images/michael-rose.jpg" 160 * 160 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/dada_profile.jpg" # "/assets/images/michael-rose.jpg" 160 * 160 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Cera's best friend"
   location         : "Seoul, KR"
   email            : 
