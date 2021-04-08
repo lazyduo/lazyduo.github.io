@@ -299,8 +299,8 @@ defaults:
 
   # _translate
   - scope:
-      path: "_posts/_translate/"
-      type: posts
+      path: "_pages/translate"
+      type: pages
     values:
       layout: single
         author_profile: true
