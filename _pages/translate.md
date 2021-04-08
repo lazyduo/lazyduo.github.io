@@ -1,8 +1,10 @@
 ---
-title: "Translate"
+title: Translate
+layout: collection
 permalink: /translate/
-date: 2021-04-07 23:16:00 -0400
-author: Cera
-# collection: translate
+collection: translate
+entries_layout: grid
+classes: wide
+author_profile: false
 ---
-please, work!!!!
+Translate Main Page.
