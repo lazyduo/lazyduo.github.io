@@ -299,8 +299,8 @@ defaults:
 
   # _translate
   - scope:
-      path: "_pages/translate"
-      type: pages
+      path: ""
+      type: translate
     values:
       layout: single
         author_profile: true
@@ -312,3 +312,9 @@ defaults:
         sidebar:
           nav: "translate"
       
+
+#collections
+collections:
+  translate:
+    output: true
+    permalink: /:collection/:path/
