@@ -3,8 +3,19 @@ main:
   - title: "Thumbnail Generator"
     # url: /docs/quick-start-guide/
   - title: "Translate"
+    url: /translate/
 
   - title: "Blog"
     # url: /about/
   - title: "About"
     url: /about/
+
+# translate sidebar
+translate:
+  - title: "Portfolio"
+    children:
+      - title: "Cera"
+        # url:
+      - title: "Dada"
+        # url:
+
