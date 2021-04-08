@@ -304,19 +304,20 @@ defaults:
       author_profile: true
       # sidebar:
       #   nav: "translate"
-  # _translate
-  - scope:
-      path: ""
-      type: translate
-    values:
-      layout: single
-        author_profile: true
-        show_date: true
-        read_time: true
-        comments: # true
-        share: true
-        related: true
-        sidebar:
-          nav: "translate"
+
+  # # _translate
+  # - scope:
+  #     path: ""
+  #     type: translate
+  #   values:
+  #     layout: single
+  #       author_profile: true
+  #       show_date: true
+  #       read_time: true
+  #       comments: # true
+  #       share: true
+  #       related: true
+  #       sidebar:
+  #         nav: "translate"
       
 
