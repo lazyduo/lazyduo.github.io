@@ -10,12 +10,12 @@ main:
   - title: "About"
     url: /about/
 
-# # translate sidebar
-# translate:
-#   - title: "Portfolio"
-#     children:
-#       - title: "Cera"
-#         # url:
-#       - title: "Dada"
-#         # url:
+# translate sidebar
+translate:
+  - title: "Portfolio"
+    children:
+      - title: "Cera"
+        # url:
+      - title: "Dada"
+        # url:
 
