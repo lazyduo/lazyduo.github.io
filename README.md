@@ -14,5 +14,6 @@
 2021-Apr-08
 
     update sidebar and learn about jekyll collection
+    Cera joined the repository
     
 to be continued...
