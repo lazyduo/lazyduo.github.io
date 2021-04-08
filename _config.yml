@@ -297,9 +297,9 @@ defaults:
       layout: single
       author_profile: true
 
-  # _trans
+  # _translate
   - scope:
-      path: "_posts/_translate"
+      path: "_posts/_translate/"
       type: posts
     values:
       layout: single
