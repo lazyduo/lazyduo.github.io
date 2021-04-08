@@ -11,5 +11,8 @@
 
     update profile image and new author
     
+2021-Apr-08
 
+    update sidebar and learn about jekyll collection
+    
 to be continued...

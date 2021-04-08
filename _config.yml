@@ -290,11 +290,7 @@ defaults:
       comments: # true
       share: true
       related: true
-      # sidebar:
-      #   - title: "Title"
-      #     text: "Some text here."
-      #   - title: "Another Title"
-      #     text: "More text here."
+
   # _pages
   - scope:
       path: "_pages"
@@ -302,8 +298,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      # sidebar:
-      #   nav: "translate"
       
   # _translate
   - scope:
