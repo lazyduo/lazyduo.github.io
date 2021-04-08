@@ -1,6 +1,6 @@
 ---
-title: translate
-layout: pages
+title: "Translate"
 permalink: /translate/
 collection: translate
 ---
+please, work!!!!
