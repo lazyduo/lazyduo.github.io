@@ -270,6 +270,12 @@ compress_html:
     envs: development
 
 
+#collections
+collections:
+  translate:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -313,8 +319,3 @@ defaults:
           nav: "translate"
       
 
-#collections
-collections:
-  translate:
-    output: true
-    permalink: /:collection/:path/
