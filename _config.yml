@@ -117,7 +117,7 @@ author:
       url: "https://instagram.com/dadanuna"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://https://www.youtube.com/channel/UC7rDtbNgtzHEV6Qos1w0ZKw"
+      url: "https://www.youtube.com/channel/UC7rDtbNgtzHEV6Qos1w0ZKw"
     - label: "dadanuna@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:dadanuna@gmail.com"
@@ -284,6 +284,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        - title: "Title"
+          text: "Some text here."
+        - title: "Another Title"
+          text: "More text here."
   # _pages
   - scope:
       path: "_pages"
