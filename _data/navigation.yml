@@ -15,7 +15,7 @@ translate:
   - title: "Portfolio"
     children:
       - title: "Cera"
-        # url:
+        url: /translate/portfolio_cera/
       - title: "Dada"
-        # url:
+        url: /translate/portfolio_dada/
 

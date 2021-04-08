@@ -314,9 +314,6 @@ defaults:
       author_profile: true
       show_date: true
       read_time: true
-      comments: # true
-      share: true
-      related: true
       sidebar:
         nav: "translate"
       
