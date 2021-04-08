@@ -270,11 +270,11 @@ compress_html:
     envs: development
 
 
-# #collections
-# collections:
-#   translate:
-#     output: true
-#     permalink: /:collection/:path/
+#collections
+collections:
+  translate:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -302,22 +302,22 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "translate"
+      # sidebar:
+      #   nav: "translate"
 
-  # # _translate
-  # - scope:
-  #     path: ""
-  #     type: translate
-  #   values:
-  #     layout: single
-  #       author_profile: true
-  #       show_date: true
-  #       read_time: true
-  #       comments: # true
-  #       share: true
-  #       related: true
-  #       sidebar:
-  #         nav: "translate"
+  # _translate
+  - scope:
+      path: ""
+      type: translate
+    values:
+      layout: single
+        author_profile: true
+        show_date: true
+        read_time: true
+        comments: # true
+        share: true
+        related: true
+        sidebar:
+          nav: "translate"
       
 
