@@ -1,6 +1,7 @@
 # main links
 main:
   - title: "Demo"
+    url: "http://localhost:8000/thumbnail/"
     # url: /docs/quick-start-guide/
   - title: "Translate"
     url: /translate/
