@@ -1,21 +1,29 @@
 # main links
 main:
-  - title: "Thumbnail Generator"
+  - title: "Demo"
     # url: /docs/quick-start-guide/
   - title: "Translate"
     url: /translate/
 
-  - title: "Blog"
-    # url: /about/
+  - title: "Post"
+
   - title: "About"
     url: /about/
 
 # translate sidebar
 translate:
+  - title: "Dragon Age"
+    children:
+      - title: "Inquisition"
+
+      - title: "Team Waldo"
+
+
+# about sidebar
+about:
   - title: "Portfolio"
     children:
       - title: "Cera"
         url: /translate/portfolio_cera/
       - title: "Dada"
         url: /translate/portfolio_dada/
-

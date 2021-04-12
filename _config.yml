@@ -275,6 +275,9 @@ collections:
   translate:
     output: true
     permalink: /:collection/:path/
+  about:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -310,5 +313,16 @@ defaults:
       read_time: true
       sidebar:
         nav: "translate"
+  
+  # _about
+  - scope:
+      path: ""
+      type: about
+    values:
+      layout: single
+      suthor_profiel: true
+      read_time: true
+      sidebar:
+        nav: "about"
       
 
