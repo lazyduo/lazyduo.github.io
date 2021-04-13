@@ -56,7 +56,7 @@ return 결과
 ```
 
 ## 주문 취소
-**uuid**를 통해서 취소 한다
+아래와 같이 **uuid**를 argument로 해서 취소한다.
 ```python
 ret = upbit.cancel_order('ed390647-6205-49e4-b4c9-a57f89c33789')
 print(ret)
