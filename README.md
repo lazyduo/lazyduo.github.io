@@ -16,4 +16,9 @@
     update sidebar and learn about jekyll collection
     Cera joined the repository
     
+2021-Apr-13
+
+    pyupbit project start
+    adjust Nanum font
+    
 to be continued...
