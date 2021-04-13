@@ -2,7 +2,7 @@
 title: Post
 layout: collection
 permalink: /post/
-collection: post
+collection: posts
 entries_layout: grid
 classes: wide
 ---
