@@ -24,8 +24,8 @@
 today's tip
 win32gui, win32api 류는 아래로 hidden import해야 정상적으로 exe 파일 만들어진다.
 
-    ```python
+    ---python
     pyinstaller --onefile macro.py --hidden-import pywintypes
-    ```
+    ---
     
 to be continued...
