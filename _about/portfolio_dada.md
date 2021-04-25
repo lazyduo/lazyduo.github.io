@@ -21,6 +21,7 @@ class Dada:
     age = time.year - self.year
     
     if age < 8 :
+      print('Just Child..')
       return
     elif age < 20 :
       self.learn('chemistry')
