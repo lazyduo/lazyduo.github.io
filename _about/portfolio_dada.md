@@ -13,8 +13,15 @@ class Dada(object):
     self.weight = 4.2 # kg
     self.place = 'Seoul, Korea'
     self.talent = kwargs.get('parent's DNA', None)
-    self.skill = None
+    self.skill = ['cry']
     return
+    
+  def go_school(self, age): # age = time - self.year
+    if age < 8 :
+      return
+    elif age < 20 :
+      
+    
 
 
 
