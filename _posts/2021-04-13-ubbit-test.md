@@ -2,6 +2,7 @@
 title: "pyupbit"
 date: 2021-04-13 21:23:00 +0900
 categories: diary
+classes: wide
 ---
 ## Upbit Class instance 생성
 
