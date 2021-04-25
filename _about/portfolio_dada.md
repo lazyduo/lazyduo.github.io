@@ -13,7 +13,7 @@ class Dada:
     self.name, self.year, self.sex = human.birth('Dada Ahn', 1992, 'M')
     self.weight = 4.2 # kg
     self.place = 'Seoul, Korea'
-    self.talent = kwargs.get('parent's DNA', None)
+    self.talent = kwargs.get('DNAfromParent', None)
     self.skill = ['cry']
     return
     
