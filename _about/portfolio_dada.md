@@ -6,6 +6,7 @@ This is Dada
 
 ```python
 from universe import human
+import datetime
 
 class Dada(object):
   def __init__(self, **kwargs):
@@ -16,13 +17,21 @@ class Dada(object):
     self.skill = ['cry']
     return
     
-  def go_school(self, age): # age = time - self.year
+  def aging(self, year): 
+    age = time.year - self.year
+    
     if age < 8 :
       return
     elif age < 20 :
+      self.learn('chemistry')
+      
       
     
 
 
+if __name__ == '__main__':
+  time = datetime.datetime.now()
+  while (1):
+    Dada.aging(time.year)
 
 ```
