@@ -26,6 +26,6 @@ about:
   - title: "Portfolio"
     children:
       - title: "Cera"
-        url: /translate/portfolio_cera/
+        url: /about/portfolio_cera/
       - title: "Dada"
-        url: /translate/portfolio_dada/
+        url: /about/portfolio_dada/
