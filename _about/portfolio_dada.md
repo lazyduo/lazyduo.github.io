@@ -8,7 +8,7 @@ This is Dada
 from universe import human
 import datetime
 
-class Dada(object):
+class Dada:
   def __init__(self, **kwargs):
     self.name, self.year, self.sex = human.birth('Dada Ahn', 1992, 'M')
     self.weight = 4.2 # kg
@@ -30,8 +30,9 @@ class Dada(object):
 
 
 if __name__ == '__main__':
+  dada = Dada()
   time = datetime.datetime.now()
   while (1):
-    Dada.aging(time.year)
+    dada.aging(time.year)
 
 ```
