@@ -16,7 +16,7 @@ upbit = pyupbit.Upbit(access_key, secret_key)
 ```
 
 ## 잔고 조회
-`get_balances()`**주의!** blance's'이다.
+`get_balances()`**주의!** balance's'이다.
 
 ```python
 balance = upbit.get_balances()
