@@ -12,6 +12,20 @@ main:
   - title: "About"
     url: /about/
 
+# tech sidebar
+tech:
+  - title: "Youtube"
+    children:
+      - title: "Thumbnail Generator"
+      - title: "Youtube API"
+      - title: "Django"
+  - title: "Alogrithm"
+    children:
+      - title: "Coding Test"
+      children:
+        - title: "tip"
+          url: /tech/tech_test/
+
 # translate sidebar
 translate:
   - title: "Dragon Age"

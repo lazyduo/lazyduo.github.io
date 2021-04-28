@@ -278,6 +278,9 @@ collections:
   about:
     output: true
     permalink: /:collection/:path/
+  tech:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
