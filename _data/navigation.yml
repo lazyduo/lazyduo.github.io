@@ -20,11 +20,8 @@ tech:
       - title: "Youtube API"
       - title: "Django"
   - title: "Alogrithm"
-    children:
-      - title: "Coding Test"
-      children:
-        - title: "tip"
-          url: /tech/tech_test/
+      - title: "tip"
+      url: /tech/tech_test/
 
 # translate sidebar
 translate:
