@@ -12,6 +12,8 @@ main:
   - title: "About"
     url: /about/
 
+
+
 # tech sidebar
 tech:
   - title: "Youtube"
@@ -20,8 +22,8 @@ tech:
       - title: "Youtube API"
       - title: "Django"
   - title: "Alogrithm"
-      children:
-        - title: "tip"
+    children:
+      - title: "tip"
         url: /tech/tech_test/
 
 # translate sidebar
