@@ -25,6 +25,9 @@ tech:
     children:
       - title: "tip"
         url: /tech/tech_test/
+  - title: "AI"
+    children:
+      - title: "Tensorflow"
 
 # translate sidebar
 translate:
