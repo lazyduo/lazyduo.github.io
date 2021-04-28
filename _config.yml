@@ -304,6 +304,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _tech
+  - scope:
+      path: ""
+      type: tech
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      read_time: true
+      sidebar:
+        nav: "tech"
       
   # _translate
   - scope:
