@@ -16,7 +16,8 @@ main:
 
 # tech sidebar
 tech:
-  - title: "Youtube project"
+  - title: "Project lolhub"
+    url: /tech/lolhub/
     children:
       - title: "Thumbnail Generator"
       - title: "Youtube API"
