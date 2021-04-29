@@ -36,6 +36,7 @@ tech:
     children:
       - title: "GitHub Pages"
       - title: "Posts"
+        url: /tech/ETC_Posts/
 
 # translate sidebar
 translate:

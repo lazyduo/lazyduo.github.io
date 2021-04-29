@@ -1,5 +1,5 @@
 ---
-title: "Tech - ETC"
+title: "Tech > ETC"
 layout: tag
 taxonomy: ETC
 classes: wide

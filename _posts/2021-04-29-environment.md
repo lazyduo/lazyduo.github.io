@@ -5,6 +5,7 @@ classes: wide
 tags:
     - tech
     - ETC
+    - ETC_Posts
 ---
 환경변수 Path를 날려 먹었습니다...
 
