@@ -21,10 +21,10 @@ tech:
       - title: "Thumbnail Generator"
       - title: "Youtube API"
       - title: "Django"
-  - title: "Alogrithm"
+  - title: "Algorithm"
     children:
-      - title: "tip"
-        url: /tech/tech_test/
+      - title: "Posts"
+        url: /tech/posts/
   - title: "AI/ML"
     children:
       - title: "Tensorflow"
