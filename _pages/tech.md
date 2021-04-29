@@ -2,6 +2,7 @@
 title: Tech
 layout: tag
 permalink: /tech/
+taxonomy: tech
 # collection: tech
 # entries_layout: grid
 classes: wide
