@@ -6,4 +6,4 @@ collection: posts
 entries_layout: grid
 classes: wide
 ---
-Post main page.
+Recent Posts.
