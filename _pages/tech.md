@@ -1,6 +1,6 @@
 ---
 title: Tech
-layout: tags
+layout: tag
 permalink: /tech/
 # collection: tech
 # entries_layout: grid
