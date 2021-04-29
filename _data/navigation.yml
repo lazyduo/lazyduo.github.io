@@ -22,15 +22,20 @@ tech:
       - title: "Youtube API"
       - title: "Django"
   - title: "Algorithm"
-    children:
-      - title: "Posts"
-        url: /tech/posts/
+    url: /tech/algorithm/        
   - title: "AI/ML"
     children:
       - title: "Tensorflow"
+  - title: "Language"
+    url: /tech/language/
+    children:
+      - title: "Python"
+      - title: "C/C++"
   - title: "ETC"
+    url: /tech/ETC/
     children:
       - title: "GitHub Pages"
+      - title: "Posts"
 
 # translate sidebar
 translate:
