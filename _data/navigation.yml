@@ -16,7 +16,7 @@ main:
 
 # tech sidebar
 tech:
-  - title: "Youtube"
+  - title: "Youtube project"
     children:
       - title: "Thumbnail Generator"
       - title: "Youtube API"
@@ -25,9 +25,12 @@ tech:
     children:
       - title: "tip"
         url: /tech/tech_test/
-  - title: "AI"
+  - title: "AI/ML"
     children:
       - title: "Tensorflow"
+  - title: "ETC"
+    children:
+      - title: "GitHub Pages"
 
 # translate sidebar
 translate:
