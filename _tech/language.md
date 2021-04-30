@@ -1,5 +1,5 @@
 ---
-title: "Tech - Language"
+title: "Tech > Language"
 layout: tag
 taxonomy: language
 classes: wide

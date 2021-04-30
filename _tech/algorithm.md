@@ -1,5 +1,5 @@
 ---
-title: "Tech - Algorithm"
+title: "Tech > Algorithm"
 layout: tag
 taxonomy: algorithm
 classes: wide
