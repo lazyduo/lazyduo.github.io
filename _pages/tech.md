@@ -12,10 +12,10 @@ sidebar:
 ---
 Technology, Project 관련 개인 정리 공간입니다.
 
-- [Project LOLHUB](/lolhub/)
-- [Algorithm](/algorithm/)
-- [AI/ML](/aiml/)
-- [Language](/language/)
-- [ETC](/ETC/)
+- [Project LOLHUB](/tech/lolhub/)
+- [Algorithm](/tech/algorithm/)
+- [AI/ML](/tech/aiml/)
+- [Language](/tech/language/)
+- [ETC](/tech/ETC/)
 
 Recent Posts...
