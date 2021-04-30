@@ -26,7 +26,12 @@
     네이버웹툰 AI Application Engineer 준비
     
 today's tip
+
 win32gui, win32api 류는 아래로 hidden import해야 정상적으로 exe 파일 만들어진다.
+
+Github pages align
+
+https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_posts/2013-01-10-markup-image-alignment.md
 
     pyinstaller --onefile macro.py --hidden-import pywintypes
     
