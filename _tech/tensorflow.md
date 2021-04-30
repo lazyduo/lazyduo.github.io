@@ -6,6 +6,8 @@ classes: wide
 author_profile: false
 sidebar:
     nav: "tech"
+tag:
+    - AIML
 ---
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/tensorflow.png){: .align-center}
 
