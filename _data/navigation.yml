@@ -25,6 +25,7 @@ tech:
   - title: "Algorithm"
     url: /tech/algorithm/        
   - title: "AI/ML"
+    url: /tech/AIML/
     children:
       - title: "Tensorflow"
   - title: "Language"
