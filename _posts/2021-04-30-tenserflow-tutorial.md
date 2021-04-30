@@ -11,7 +11,7 @@ TensorFlow 배워보자!
 
 ## TensorFlow 설치
 
-`pip install tensorflow`
+`$ pip install tensorflow`
 
 잘 되는 줄 알았으나 샘플코드 실행하면 에러 발생...
 
@@ -40,3 +40,11 @@ TensorFlow 배워보자!
     2021-05-01 03:57:35.051251: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusolver64_11.dll'; dlerror: cusolver64_11.dll not found
     2021-05-01 03:57:35.063360: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cusparse64_11.dll
     2021-05-01 03:57:35.066483: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+
+GitHub 제보를 토대로 CUDA 11.1.0v를 깔아보자. (11.3v도 해보고 11.0도 해봤지만 11.1v를 안 해본 내 잘못이다)
+
+    I installed CUDA 10.2 over 11.1 and the problem seems to be resolved:
+
+믿어보자.
+
+도대체 환경 변수를 몇 번을 설정하는지 모르겠지만..끝까지 간다.
