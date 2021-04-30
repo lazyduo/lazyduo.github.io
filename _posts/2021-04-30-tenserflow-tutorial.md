@@ -1,5 +1,5 @@
 ---
-title: "TensorFlow Tutorial"
+title: "TensorFlow Tutorial (1) - 설치"
 date: 2021-04-30 20:29:00 +0900
 classes: wide
 tags:
@@ -7,8 +7,6 @@ tags:
     - AIML
     - tensorflow
 ---
-TensorFlow 배워보자!
-
 ## TensorFlow 설치
 
 `$ pip install tensorflow`
@@ -41,10 +39,22 @@ TensorFlow 배워보자!
     2021-05-01 03:57:35.063360: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cusparse64_11.dll
     2021-05-01 03:57:35.066483: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
 
-GitHub 제보를 토대로 CUDA 11.1.0v를 깔아보자. (11.3v도 해보고 11.0도 해봤지만 11.1v를 안 해본 내 잘못이다)
+아래 GitHub 제보를 토대로 CUDA v11.1.0를 깔아보자. (v11.3도 해보고 v11.0도 해봤지만 v11.1을 안 해본 내 잘못이다)
 
     I installed CUDA 10.2 over 11.1 and the problem seems to be resolved:
 
 믿어보자.
 
+
 도대체 환경 변수를 몇 번을 설정하는지 모르겠지만..끝까지 간다.
+
+`cusolver64_11.dll`은 해결되었으나 `cudnn64_8.dll`은 아직 안되고 있어서 폴더 열어봤더니 등록한 환경변수 path랑 위치가 조금 달랐다. 
+
+환경 변수 재설정하고 재시도한 결과
+
+    2021-05-01 04:28:22.855242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+
+** 성공! **
+
+
+- 최종 version : `TensorFlow(2.5.0) - CUDA v11.1.0 - cuDNN v8.0.5(for CUDA 11.1)`
