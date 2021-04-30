@@ -1,15 +1,9 @@
 @charset "utf-8";
 
+$doc-font-size: 13 !default;
+
 $link-color: red;
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-// nanum font
-// @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-// <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet" type="text/css">
-
-$link-color: $dark-gray !default;
+// $link-color: $dark-gray !default;
 
 /* dirt syntax highlighting (base16) */
 $base00: #231e18;
@@ -28,3 +22,21 @@ $base0c: #6eb958;
 $base0d: #88a4d3;
 $base0e: #bb90e2;
 $base0f: #b49368;
+
+/* system typefaces */
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic Coding", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+$intro-transition  : none;
+$global-transition : none;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// nanum font
+// @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+// <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet" type="text/css">
+
+
