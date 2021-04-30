@@ -1,5 +1,5 @@
 ---
-title: "TensorFlow Tutorial (1) - 설치"
+title: "TensorFlow Tutorial (1) - Install"
 date: 2021-04-30 20:29:00 +0900
 classes: wide
 tags:
@@ -7,7 +7,7 @@ tags:
     - AIML
     - tensorflow
 ---
-## TensorFlow 설치
+## TensorFlow 설치 여정
 
 `$ pip install tensorflow`
 
@@ -54,7 +54,7 @@ tags:
 
     2021-05-01 04:28:22.855242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
 
-** 성공! **
+** **성공!** **
 
 
 - 최종 version : `TensorFlow(2.5.0) - CUDA v11.1.0 - cuDNN v8.0.5(for CUDA 11.1)`
