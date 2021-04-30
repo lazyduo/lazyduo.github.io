@@ -11,7 +11,7 @@ tags:
 
 가장 기본 튜토리얼. 아직 머신러닝 공부가 부족하여 손실 함수 등 이해가 필요한 부분이 많다. 그래도 무언가 훈련하고, 답을 찾아내는게 보여서 신기하다.
 
-[Python Script](https://github.com/lazyduo/lazyduo.github.io/tree/master/assets/scripts/tf_tutorial)
+[Python Script](https://github.com/lazyduo/lazyduo.github.io/tree/master/assets/scripts/tf_tutorial.py)
 
 ## Data Load
 
@@ -31,6 +31,7 @@ print('y_test:  '  + str(y_test.shape))
 ```
 
 - 출력값
+
     x_train: (60000, 28, 28) // input training set shape
     y_train: (60000,)        // output training set shape
     x_test:  (10000, 28, 28) // input test set shape
@@ -77,6 +78,7 @@ predictions = model(x_train[:1]).numpy()
 `tf.nn.softmax` 함수는 이 logits를 "가능성"으로 전환해준다. 
 
 - 출력값
+
     [[0.04500094 0.11489239 0.11621773 0.15878086 0.07192232 0.07576974
     0.05411552 0.17347248 0.06605321 0.12377478]]
     ---------
@@ -106,6 +108,7 @@ model.fit(x_train, y_train, epochs=5)
 ```
 
 - 출력값
+
     Epoch 1/5
     1875/1875 [==============================] - 5s 2ms/step - loss: 0.2937 - accuracy: 0.9149
     Epoch 2/5
@@ -124,6 +127,7 @@ model.evaluate(x_test,  y_test, verbose=2)
 ```
 
 - 출력값
+
     before fitting
     313/313 - 1s - loss: 2.4270 - accuracy: 0.0656
     [2.4269537925720215, 0.06560000032186508]
@@ -143,5 +147,5 @@ probability_model = tf.keras.Sequential([
 ])
 ```
 
-참고
+## 참고
 - [머신러닝 용어집](https://developers.google.com/machine-learning/glossary)
