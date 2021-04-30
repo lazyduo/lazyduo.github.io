@@ -1,6 +1,6 @@
 ---
 title: "TensorFlow Tutorial (2) - Beginner"
-date: 2021-04-30 20:29:00 +0900
+date: 2021-05-01 06:11:00 +0900
 classes: wide
 toc: true
 tags:
