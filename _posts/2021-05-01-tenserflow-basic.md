@@ -3,6 +3,7 @@ title: "TensorFlow Tutorial Memo - Beginner"
 date: 2021-05-01 06:11:00 +0900
 classes: wide
 toc: true
+toc_sticky: true
 tags:
     - tech
     - AIML

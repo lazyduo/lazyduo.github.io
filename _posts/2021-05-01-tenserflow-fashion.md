@@ -3,6 +3,7 @@ title: "TensorFlow Tutorial (3) - Fahsion MNIST"
 date: 2021-05-01 21:39:00 +0900
 classes: wide
 toc: true
+toc_sticky: true
 tags:
     - tech
     - AIML
@@ -10,7 +11,7 @@ tags:
     - tutorial
 ---
 
-Beginner에서 사용한 MNIST 숫자 손글씨 보다 조금 더 어려운 dataset으로 실습해보자.
+Beginner에서 사용한 MNIST 숫자 손글씨 보다 조금 더 어려운 Fashion dataset으로 실습해보자.
 
 [Python Script](https://github.com/lazyduo/tensorflow-tutorial/blob/master/scripts/tf_fashion.py)
 
