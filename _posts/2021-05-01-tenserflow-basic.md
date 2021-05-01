@@ -44,10 +44,14 @@ print('y_test:  '  + str(y_test.shape))
 ```python
 from matplotlib import pyplot
 
-for i in range(100):  
-    pyplot.subplot(10, 10, 1+i)
-    pyplot.imshow(x_train[i], cmap=pyplot.get_cmap('gray'))
-
+pyplot.figure(figsize=(7,7))
+for i in range(25):
+  pyplot.subplot(5, 5, i+1)
+  pyplot.xticks([])
+  pyplot.yticks([])
+  pyplot.grid(False)
+  pyplot.imshow(x_train[i], cmap=pyplot.get_cmap('gray'))
+  pyplot.xlabel(y_train[i])
 pyplot.show()
 ```
 
