@@ -33,6 +33,8 @@ Github pages align
 
 https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_posts/2013-01-10-markup-image-alignment.md
 
+Git 한 줄 commit 도움 [글](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+
     pyinstaller --onefile macro.py --hidden-import pywintypes
     
 to be continued...
