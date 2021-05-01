@@ -11,7 +11,7 @@ tags:
 
 가장 기본 튜토리얼. 아직 머신러닝 공부가 부족하여 손실 함수 등 이해가 필요한 부분이 많다. 그래도 무언가 훈련하고, 답을 찾아내는게 보여서 신기하다.
 
-[Python Script](https://github.com/lazyduo/lazyduo.github.io/tree/master/assets/scripts/tf_tutorial)
+[Python Script](https://github.com/lazyduo/tensorflow-tutorial/blob/master/scripts/tf_tutorial.py)
 
 ## Data Load
 
@@ -37,17 +37,16 @@ print('y_test:  '  + str(y_test.shape))
     x_test:  (10000, 28, 28) // input test set shape
     y_test:  (10000,)        // output test set shape
 
-어떤 이미지가 들어가 있는지 확인해보자
+28 x 28 pixel 크기의 이미지가 들어가 있는 것을 볼 수 있다. 한 번 그려보자.
 
 ```python
 from matplotlib import pyplot
 
-for i in range(9):  
-    pyplot.subplot(330 + 1 + i)
+for i in range(100):  
+    pyplot.subplot(10, 10, 1+i)
     pyplot.imshow(x_train[i], cmap=pyplot.get_cmap('gray'))
 
 pyplot.show()
-
 ```
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/MNIST.png){: .align-center}
@@ -127,6 +126,7 @@ model.evaluate(x_test,  y_test, verbose=2)
 ```
 
 - 출력값
+
 ```batchfile
 before fitting
 313/313 - 1s - loss: 2.4270 - accuracy: 0.0656
