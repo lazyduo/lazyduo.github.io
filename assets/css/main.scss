@@ -36,9 +36,9 @@
     :last-child {
       transition: transform 0.7s ease-in-out;
       
-      &:active, &:hover {
-         transform: translateY(-10%);
-      }
+    //   &:active, &:hover {
+    //      transform: translateY(-10%);
+    //   }
     }
     transform: translateY(30%);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -47,11 +47,11 @@
 
 #scroll-to-top span {
     cursor: pointer;
-    color: #1a1d24;
+    color: #454647;
 
     &:hover, &:active {
-        .up-arrow {
-            color: #00adb5;
+        .circle {
+            color: #1a1d24;
         }
     }
 }
