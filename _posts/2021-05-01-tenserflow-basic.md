@@ -127,14 +127,15 @@ model.evaluate(x_test,  y_test, verbose=2)
 ```
 
 - 출력값
+```batchfile
+before fitting
+313/313 - 1s - loss: 2.4270 - accuracy: 0.0656
+[2.4269537925720215, 0.06560000032186508]
 
-    before fitting
-    313/313 - 1s - loss: 2.4270 - accuracy: 0.0656
-    [2.4269537925720215, 0.06560000032186508]
-
-    after fitting
-    313/313 - 1s - loss: 0.0744 - accuracy: 0.9775
-    [0.07440521568059921, 0.9775000214576721]
+after fitting
+313/313 - 1s - loss: 0.0744 - accuracy: 0.9775
+[0.07440521568059921, 0.9775000214576721]
+```
 
 ## Probability Model
 
