@@ -66,12 +66,14 @@ plt.show()
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/fashion-MNIST-0.png">
 </figure>
 
-<!-- ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/MNIST.png){: .align-center} -->
-
 ## Model
 ### Build and Compile
 
 마찬가지로 [이전](https://lazyduo.github.io/tenserflow-basic/#model)에서 하는 방법은 똑같고, layer 구성 설명과 compile 세팅에 대해서 조금 더 알아보자.
+
+- 손실 함수(Loss function) : 훈련 하는 동안 모델의 오차를 측정. 모델의 학습이 올바른 방향으로 향하도록 이 함수를 최소화해야 한다.
+- 옵티마이저(Optimizer)-데이터와 손실 함수를 바탕으로 모델의 업데이트 방법을 결정.
+- 지표(Metrics)-훈련 단계와 테스트 단계를 모니터링하기 위해 사용.
 
 ```python
 ## Build the Model
@@ -86,6 +88,7 @@ model.compile(optimizer='adam',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               metrics=['accuracy'])
 ```
+
 ### Train & Evaluate
 
 `model.fit(train_images, train_labels)`으로 훈련시키고 `model.evaluate(test_images, test_labels)`로 검증한다.
