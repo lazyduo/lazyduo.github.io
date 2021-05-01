@@ -6,6 +6,7 @@ tags:
     - tech
     - AIML
     - tensorflow
+    - tutorial
 ---
 ## TensorFlow 설치 여정
 

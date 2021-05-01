@@ -1,5 +1,5 @@
 ---
-title: "TensorFlow Tutorial (2) - Beginner"
+title: "TensorFlow Tutorial Memo - Beginner"
 date: 2021-05-01 06:11:00 +0900
 classes: wide
 toc: true
@@ -7,6 +7,7 @@ tags:
     - tech
     - AIML
     - tensorflow
+    - tutorial
 ---
 
 가장 기본 튜토리얼. 아직 머신러닝 공부가 부족하여 손실 함수 등 이해가 필요한 부분이 많다. 그래도 무언가 훈련하고, 답을 찾아내는게 보여서 신기하다.
@@ -39,7 +40,7 @@ print('y_test:  '  + str(y_test.shape))
     y_test:  (10000,)        // output test set shape
 ```
 
-위와 같이 x_train에는 28 x 28 pixel 크기의 이미지가 들어가 있는 것을 볼 수 있다. 각 픽셀에 흑백 명암 정도를 0~255의 정수로 표현되어 있다. 또한 y_train에는 이 이미지가 숫자 1인지 8인지 라벨값(1~9)가 들어가 있다. plot 하여 이미지 확인을 해 보자.
+위와 같이 x_train에는 28 x 28 pixel 크기의 이미지가 들어가 있는 것을 볼 수 있다. 각 픽셀에 흑백 명암 정도를 0~255의 정수로 표현되어 있다. 또한 y_train에는 이 이미지가 숫자 1인지 8인지 라벨값(0~9)가 들어가 있다. plot 하여 이미지 확인을 해 보자.
 
 ```python
 from matplotlib import pyplot
