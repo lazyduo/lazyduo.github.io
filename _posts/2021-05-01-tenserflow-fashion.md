@@ -71,9 +71,7 @@ plt.show()
 
 마찬가지로 [이전](https://lazyduo.github.io/tenserflow-basic/#model)에서 하는 방법은 똑같고, layer 구성 설명과 compile 세팅에 대해서 조금 더 알아보자.
 
-- 손실 함수(Loss function) : 훈련 하는 동안 모델의 오차를 측정. 모델의 학습이 올바른 방향으로 향하도록 이 함수를 최소화해야 한다.
-- 옵티마이저(Optimizer)-데이터와 손실 함수를 바탕으로 모델의 업데이트 방법을 결정.
-- 지표(Metrics)-훈련 단계와 테스트 단계를 모니터링하기 위해 사용.
+
 
 ```python
 ## Build the Model
@@ -82,13 +80,20 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(128, activation='relu'),
     tf.keras.layers.Dense(10)
 ])
+```
+네트워크의 첫번째 레이어인 `tf.keras.layers.Flatten`은 2차원 배열의 이미지를 1차원 배열로 변환해 준다. 그렇게 픽셀을 펼친 후에는 `tf.keras.layers.Dense` 층이 연속되어 연결되는데, 이 층을 **밀집 연결(densely-connected)** 또는 **완전 연결(fully-connected)**이라고 부른다.
 
+첫번째 Dense층은 128개의 노드(뉴런)을 가진다는 의미이고, 두번째 층은 크기가 10인 logits 배열을 반환하게 된다.
+
+```python
 ## Compile the Model
 model.compile(optimizer='adam',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               metrics=['accuracy'])
 ```
-
+- 손실 함수(Loss function) : 훈련 하는 동안 모델의 오차를 측정. 모델의 학습이 올바른 방향으로 향하도록(steer) 이 함수를 최소화해야 한다.
+- 옵티마이저(Optimizer)-데이터와 손실 함수를 바탕으로 모델의 업데이트 방법을 결정.
+- 지표(Metrics)-훈련 단계와 테스트 단계를 모니터링하기 위해 사용.
 ### Train & Evaluate
 
 `model.fit(train_images, train_labels)`으로 훈련시키고 `model.evaluate(test_images, test_labels)`로 검증한다.
