@@ -15,7 +15,7 @@ tags:
 
 ## Data Load
 
-사용할 데이터는 `MNIST`. 숫자 손글씨 Database로, training set 60,000개, test set 10,000개로 이루어져 있다. tensorflow의 keras에 datasets으로 있어서 아래와 같이 불러 올 수 있다.
+사용할 데이터는 `MNIST`. 숫자 손글씨 Database로, training set 60,000개, test set 10,000개로 이루어져 있다. tensorflow의 keras에 datasets으로 있어서 아래와 같이 불러 올 수 있다. dataset을 로딩하면 NumPy array로 리턴하며, 값 확인을 위해 ndarray.shape로 dimension을 확인 해 보았다.
 
 ```python
 import tensorflow as tf
@@ -37,7 +37,9 @@ print('y_test:  '  + str(y_test.shape))
     x_test:  (10000, 28, 28) // input test set shape
     y_test:  (10000,)        // output test set shape
 
-28 x 28 pixel 크기의 이미지가 들어가 있는 것을 볼 수 있다. 한 번 그려보자.
+위와 같이 28 x 28 pixel 크기의 이미지가 들어가 있는 것을 볼 수 있다.
+
+plot 하여 이미지 확인을 해 보자.
 
 ```python
 from matplotlib import pyplot
@@ -127,7 +129,7 @@ model.evaluate(x_test,  y_test, verbose=2)
 
 - 출력값
 
-```batchfile
+```console
 before fitting
 313/313 - 1s - loss: 2.4270 - accuracy: 0.0656
 [2.4269537925720215, 0.06560000032186508]
