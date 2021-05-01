@@ -38,6 +38,7 @@ tech:
     url: /tech/ETC/
     children:
       - title: "GitHub Pages"
+        urL: /tech/Github-Pages/
       - title: "Posts"
         url: /tech/ETC_Posts/
 

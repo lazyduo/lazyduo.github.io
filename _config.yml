@@ -202,6 +202,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# JavaScript
+head_scripts:
+  - /assets/js/scroll-to-top.js
 
 # Sass/SCSS
 sass:
