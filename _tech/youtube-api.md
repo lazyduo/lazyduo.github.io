@@ -15,7 +15,7 @@ LOLHUB 프로젝트의 최종 단계는 클릭 한 번으로 자동으로 Youtub
 
 Youtube API를 사용하기 위해서는 OAuth 인증이 필수다. OAuth는 인증 표준 protocol 개념으로, 사용자가 아이디와 비밀번호를 제공하지 않고 secret token으로 어플리케이션의 접근 권한을 부여한다. 언뜻 보면 API Key랑 비슷하다고 생각할 수 있으나, 목적 자체가 다르다.
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/api-key-overview.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/api-keys-overview.png){: .align-center}
 
 위 그림처럼, **API Key는 프로젝트**를 식별하고 승인하는 반면에, **Auth Token은 사용자**를 인증하고 승인한다. API Key는 결국 비밀번호와 같이 분실 위험이 있는 안전하지 않은 액세스 방법이기 때문에, 특정 IP 주소 범위, Android 앱, iOS 앱과 같은 환경에서만 사용할 수 있도록 '제한'하여 사용한다. 반면, Auth 체계는 사용자를 식별하는 안전한 방법을 제공하여 사용자의 secret정보를 노출하지 않으면서 API 호출을 가능하도록 한다.
  
