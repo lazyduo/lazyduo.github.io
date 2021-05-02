@@ -20,7 +20,7 @@ tech:
     url: /tech/lolhub/
     children:
       - title: "Thumbnail Generator"
-        url: /tech/thumbnial-generator/
+        url: /tech/thumbnail-generator/
       - title: "Youtube API"
         url: /tech/youtube-api/
       - title: "Django"
