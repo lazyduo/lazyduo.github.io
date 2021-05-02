@@ -14,7 +14,7 @@ Technology, Project 관련 개인 정리 공간입니다.
 
 - [Project LOLHUB](/tech/lolhub/)
 - [Algorithm](/tech/algorithm/)
-- [AI/ML](/tech/aiml/)
+- [AI/ML](/tech/AIML/)
 - [Language](/tech/language/)
 - [ETC](/tech/ETC/)
 
