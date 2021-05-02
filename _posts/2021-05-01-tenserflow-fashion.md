@@ -94,6 +94,7 @@ model.compile(optimizer='adam',
 - 손실 함수(Loss function) : 훈련 하는 동안 모델의 오차를 측정. 모델의 학습이 올바른 방향으로 향하도록(steer) 이 함수를 최소화해야 한다.
 - 옵티마이저(Optimizer)-데이터와 손실 함수를 바탕으로 모델의 업데이트 방법을 결정.
 - 지표(Metrics)-훈련 단계와 테스트 단계를 모니터링하기 위해 사용.
+
 ### Train & Evaluate
 
 `model.fit(train_images, train_labels)`으로 훈련시키고 `model.evaluate(test_images, test_labels)`로 검증한다.
@@ -107,7 +108,7 @@ test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
 print('\nTest accuracy:', test_acc) # evaluate는 loss와 accuracy를 return 한다.
 ```
 
-## MPredictions
+## Predictions
 ### Make Predictions
 
 Model의 linear ouput인 **logits**을 **probability**로 전환하는 과정이라고 볼 수 있다.
