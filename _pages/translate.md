@@ -1,11 +1,13 @@
 ---
 title: Translate
-layout: collection
+layout: tag
 permalink: /translate/
-collection: translate
-entries_layout: grid
+taxonomy: translate
+# collection: translate
+# entries_layout: grid
 classes: wide
-author_profile: false
+author_profile: true
+author: Cera
 sidebar:
     nav: "translate"
 ---

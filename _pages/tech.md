@@ -6,7 +6,7 @@ taxonomy: tech
 # collection: tech
 # entries_layout: grid
 classes: wide
-author_profile: false
+author_profile: true
 sidebar:
     nav: "tech"
 ---
