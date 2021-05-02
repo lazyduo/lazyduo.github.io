@@ -60,6 +60,11 @@ mask 시킬 검정색 투명 그라데이션 이미지를 따로 준비한다. �
 
 특히, 배경이 투명한 png 이미지들을 깔끔하게 붙여 넣기위해서 이 방법이 정말 많이 쓰였다.
 
+- 배경에 어두운 그라데이션이 입혀진 것을 확인 할 수 있다.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-1.jpg){: .align-center}
+
+
 
 
 
