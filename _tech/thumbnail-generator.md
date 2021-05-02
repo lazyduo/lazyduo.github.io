@@ -13,8 +13,8 @@ sidebar:
 - 예시
 
 <figure class="half">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-1.png">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-2.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-1.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-2.jpg">
 </figure>
 
 이 페이지에서는 이 썸네일 생성기를 어떻게 만들었는지 그 과정을 다루도록 하겠습니다. 기억 되살리는 중...
