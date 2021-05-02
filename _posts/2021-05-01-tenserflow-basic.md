@@ -1,5 +1,5 @@
 ---
-title: "TensorFlow Tutorial Memo - Beginner"
+title: "TensorFlow Tutorial (2) - Beginner"
 date: 2021-05-01 06:11:00 +0900
 classes: wide
 toc: true
