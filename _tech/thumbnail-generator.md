@@ -161,7 +161,7 @@ def make_thumbnail_3(self, **kwargs):
 
 - 전
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-3.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-3.PNG){: .align-center}
 
 - 후
 
