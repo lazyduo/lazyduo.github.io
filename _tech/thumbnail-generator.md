@@ -157,6 +157,16 @@ def make_thumbnail_3(self, **kwargs):
 
 ## 마치며
 
+처음 시도했던 그림을 보면 결과물이 꽤 괜찮지 않나?
+
+- 전
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-3.png){: .align-center}
+
+- 후
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-4.png){: .align-center}
+
 PIL 모듈 다룰 줄만 알면 나머지는 다 수작업이라 생성 기능 만드는거 자체는 어렵지 않다. 나 같은 경우 포토샵으로 미리 프리셋을 만들어 놓고, 그거랑 최대한 비슷하게 PIL을 통해 만들려고 노력했다. pixel 단위로 조정하는 세밀함은 필수! 
 
 사실 기능 자체보다 Django랑 연결하고, 여런 html 페이지 연동시키고, 버튼 만들고 jQuery ajax 만들고 하는게 더 어려웠다. 프론트 엔드랑은 안맞는것인가?!
