@@ -34,7 +34,7 @@ $ pip install pillow
 
 - [pillow docs](https://pillow.readthedocs.io/en/stable/reference/index.html)
 
-### Image Module
+## Image Module
 
 이미지 객체를 받는다고 보면된다. 도화지를 가져오는 셈이다. 썸네일 생성을 위해 `Image.open('file_path')`를 이용해서 배경이미지를 불러오고 그 위에 다른 이미지들을 얹는 형태로 구현 했다.
 
