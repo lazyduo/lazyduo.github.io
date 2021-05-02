@@ -6,9 +6,6 @@ toc: true
 toc_sticky: true
 sidebar:
     nav: "tech"
-categories: project
-tags:
-    - lolhub
 ---
 
 ## 개요
