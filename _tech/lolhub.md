@@ -24,6 +24,7 @@ sidebar:
     4. 최종 confirm으로 서브 클립들을 하나의 영상으로 편집한다. 지정한 인트로, 아웃트로 및 BGM도 같이 믹싱한다.
     5. 유튜브에 업로드하기 위해 title, subtitle, tag를 설정하고, Thubnail을 제작한다.
     6. 최종 타겟 Youtube 채널에 업로드 한다.
+
 ## 주저리주저리
 
 갑자기 개발자 할거라고 1-2주 코드카데미에서 python 튜토리얼하고, 자료구조랑 알고리즘, 코딩 문제 막 시작하고 있을 때 [upoque](https://github.com/upoque)가 하던 프로젝트에 중간 투입.
