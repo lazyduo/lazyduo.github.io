@@ -12,6 +12,11 @@ sidebar:
 - 목표 : 게임 하이라이트 자동 생성 및 유튜브 업로드 자동화
 - 참여 : 썸네일 자동 생성, 유튜브 API 연결, Django 웹
 
+    - [Thumbnail Generator](/tech/thumbnail-generator/)
+    - [Youtube API](/tech/youtube-api/)
+    - [Django](/tech/djnago/)
+
+
 ## 주저리주저리
 
 갑자기 개발자 할거라고 1-2주 코드카데미에서 python 튜토리얼하고, 자료구조랑 알고리즘, 코딩 문제 막 시작하고 있을 때 [upoque](https://github.com/upoque)가 하던 프로젝트에 중간 투입.

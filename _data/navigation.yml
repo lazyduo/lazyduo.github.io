@@ -22,7 +22,9 @@ tech:
       - title: "Thumbnail Generator"
         url: /tech/thumbnial-generator/
       - title: "Youtube API"
+        url: /tech/youtube-api/
       - title: "Django"
+        url: /tech/django/
   - title: "Algorithm"
     url: /tech/algorithm/        
   - title: "AI/ML"
