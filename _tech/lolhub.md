@@ -16,7 +16,14 @@ sidebar:
     - [Youtube API](/tech/youtube-api/)
     - [Django](/tech/djnago/)
 
+- flow 설명 :
 
+    1. Crawling 할 프로 선수 들을 설정하고, 게임에서 Double Kill과 같은 Event가 일어난 구간들을 체크한다. event에 가중치를 두어 '재밌는' 경기를 찾는게 목표다.
+    2. 위에서 찾은 Event를 작은 클립들로 녹화를 진행한다.
+    3. 관리자는 녹화된 서브 클립들을 확인하고 별점(rating)을 부여한다. 흥미로운 영상일 수록 점수가 높으며, 이 점수에 따라서 알고리즘에 따라 영상들의 순서가 결정된다. 앞에는 가장 재밌는 영상이 오도록!
+    4. 최종 confirm으로 서브 클립들을 하나의 영상으로 편집한다. 지정한 인트로, 아웃트로 및 BGM도 같이 믹싱한다.
+    5. 유튜브에 업로드하기 위해 title, subtitle, tag를 설정하고, Thubnail을 제작한다.
+    6. 최종 타겟 Youtube 채널에 업로드 한다.
 ## 주저리주저리
 
 갑자기 개발자 할거라고 1-2주 코드카데미에서 python 튜토리얼하고, 자료구조랑 알고리즘, 코딩 문제 막 시작하고 있을 때 [upoque](https://github.com/upoque)가 하던 프로젝트에 중간 투입.
