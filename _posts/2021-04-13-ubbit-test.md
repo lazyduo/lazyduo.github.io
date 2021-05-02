@@ -1,8 +1,14 @@
 ---
 title: "pyupbit"
 date: 2021-04-13 21:23:00 +0900
-categories: diary
 classes: wide
+autor_profile: true
+toc: true
+toc_sticky: true
+tags:
+    - tech
+    - ETC
+    - ETC_Posts
 ---
 ## Upbit Class instance 생성
 
