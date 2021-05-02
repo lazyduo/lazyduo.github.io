@@ -16,11 +16,10 @@ sidebar:
 
 - 구현 웹 화면
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-main.jpg){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-main.png){: .align-center}
 
-유저가 title, subtitle, tag를 입력하고, 추천한 이미지 중에서 원하는 배경 이미지를 선택하면 지정된 썸네일 preset으로 썸네일을 만들어 준다.
+유저가 title, subtitle, tag를 입력하고, 추천한 이미지 중에서 원하는 배경 이미지를 선택하면 지정된 썸네일 preset으로 썸네일을 만들어 줍니다.
 
-이제 이 썸네일 생성기를 어떻게 만들었는지 그 과정을 다루도록 하겠습니다. 기억 되살리는 중...
 
 ## PIL(pillow) 시작하기
 
@@ -160,5 +159,9 @@ def make_thumbnail_3(self, **kwargs):
 
 ## 마치며
 
-사실 PIL 모듈 다룰 줄만 알면 나머지는 다 수작업이다. 나 같은 경우 포토샵으로 미리 프리셋을 만들어 놓고, 그거랑 최대한 비슷하게 PIL을 통해 만들려고 노력했다. pixel 단위로 조정하는 세밀함이 필요하다.
+PIL 모듈 다룰 줄만 알면 나머지는 다 수작업이라 생성 기능 만드는거 자체는 어렵지 않다. 나 같은 경우 포토샵으로 미리 프리셋을 만들어 놓고, 그거랑 최대한 비슷하게 PIL을 통해 만들려고 노력했다. pixel 단위로 조정하는 세밀함은 필수! 
+
+사실 기능 자체보다 Django랑 연결하고, 여런 html 페이지 연동시키고, 버튼 만들고 jQuery ajax 만들고 하는게 더 어려웠다. 프론트 엔드랑은 안맞는것인가?!
+
+(현재 서버 이전을 해 놔서 다시 연결시켜 Django Web으로 돌리기 어려운 상태라.. 복기하는데 애를 좀 많이 먹었네요)
 
