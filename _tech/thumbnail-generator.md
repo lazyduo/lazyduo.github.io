@@ -156,13 +156,13 @@ def make_thumbnail_3(self, **kwargs):
 
 ## 마치며
 
-처음 시도했던 그림을 보면 결과물이 꽤 괜찮지 않나?
+처음 샘플 이미지와 최종 이미지를 비교해보면 꽤 괜찮게 만들어 졌다고 생각한다.
 
-- 전
+- Before
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-3.PNG){: .align-center}
 
-- 후
+- After
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/thumbnail-sample-4.png){: .align-center}
 
