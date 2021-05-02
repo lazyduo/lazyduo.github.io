@@ -3,7 +3,6 @@ title: "Tech > Project LOLHUB > Thumbnail Generator"
 classes: wide
 author_profile: false
 toc: true
-toc_sticky: true
 sidebar:
     nav: "tech"
 ---
