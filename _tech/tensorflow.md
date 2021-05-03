@@ -19,9 +19,16 @@ Facebook's AI Research lab에서 개발한 **PyTorch**와 가장 큰 차이점�
 
 또 다른 머신러닝 프레임워크들로는 neural network에 특화된 마이크로소프트의 **CNTK**, 그리고 Amazon의 **Apache MXNet** 등이 있다.
 
-<!-- TODO Tensor? -->
+## Tensor?
+
+Machine Learning에서 Data가 Neural Network를 타고 들어갈때의 단위라고 보면 된다. 배열이나 행렬 정도로 느낌을 가져가면 '우선'은 이해가 편하다. 결국 Machine Learning이란게 Data들에 **가중치**를 부여하면서 선형결합을 하여 다음 노드(node)를 만들고 또 다음 층(layer)으로 선형결합을 하며 이루어지는데 이게 결국 `tensor`의 연산이다.
+
+너무 수학적 혹은 물리적으로 갈 것 까지는 없고, 1차원 벡터, 2차원 매트릭스 3차원 부터 텐서라고 한다고 생각하면 편하다.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/tensor.png){: .align-center}
+
 ## Tutorial
 
-TensorFlow 사이트에 잘 정리된 [튜토리얼](https://www.tensorflow.org/tutorials/keras/classification?hl=en)이 있습니다. 전에 Youtube API 문서랑 느낌이 아주 유사합니다.
+TensorFlow 사이트에 잘 정리된 [튜토리얼](https://www.tensorflow.org/tutorials/keras/classification?hl=en)이 있습니다. 같은 구글이라서 전에 Youtube API 문서 들여다 봤던 거랑 느낌이 아주 유사네요.
 
 차근차근 포스팅 할 예정입니다.
