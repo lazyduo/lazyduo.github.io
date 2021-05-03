@@ -8,11 +8,13 @@ tags:
     - tensorflow
     - tutorial
 ---
-## TensorFlow 설치 여정
+## 험난했던 TensorFlow 설치 여정
 
 `$ pip install tensorflow`
 
-잘 되는 줄 알았으나 샘플코드 실행하면 에러 발생...
+여기까지는 좋았다.
+
+잘 되는 줄 알았으나 `import tensorflow`하고 샘플코드 실행하면 에러 발생...
 
 
     2021-05-01 03:31:39.741247: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
@@ -59,3 +61,5 @@ tags:
 
 
 - 최종 version : `TensorFlow(2.5.0) - CUDA v11.1.0 - cuDNN v8.0.5(for CUDA 11.1)`
+
+근데 나중에 알았는데 GPU 사용 안해도 된다고 한다..^^
