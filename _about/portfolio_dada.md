@@ -12,8 +12,8 @@ autor_profile: true
 아직 개발 경험이 부족한 것도 맞고, 직장 다니면서 따로 시간 내어 개발하는 것도 힘든 건 사실입니다. 하지만, 직장인 한테 정말 소중한 금요일, 주말 밤에도 코딩한다고 밤새고 있는 제 모습을 보면 원래 이 길이 맞지 않았나 싶습니다.
 
 
-<details>
-  <summary>더 보기</summary>
+<details><summary>CLICK ME</summary>
+<p>
 
 ## 학력
 
@@ -62,6 +62,7 @@ Connecting the Dots. 스티브 잡스가 했던 이 문구가 영향을 줘서 �
 
 - 20년도 9월 친구와 python project를 시작으로, 2020년 12월 SW개발그룹으로 업무 변경에 이어 단기간 삼성 SW 검정 Advanced 등급 취득으로 현재도 계속 개발자로서 커리어를 쌓기 위해 노력 중입니다.
 
+</p>
 </details>
 
 <!-- ```python
