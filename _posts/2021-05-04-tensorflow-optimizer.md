@@ -52,11 +52,11 @@ model.compile(optimizer='adam',
 
 `learning rate`를 설정 할 때, 파라미터의 변화가 작으면 빠르게, 파라미터의 변화가 크면 느리게 조절준다.
 
-$$theta_i$$ $$\theta_i$$
+$theta_i$
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/adagrad-equation.png){: .align-center}
 
-
+에타(learning rate)의 분모에 Gt가 그래디언트들의 합이기 때문에, 변화가 큰 경우 다음 파라미터를 탐색 할 때 작은 `learning rate`로 탐색하고 또한 역으로 작으면 큰 `learning rate`로 탐색 하는 것을 알 수 있다.
 
 
 ## Cost, Activation, Loss Function
