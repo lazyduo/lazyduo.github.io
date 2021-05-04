@@ -12,6 +12,8 @@ sidebar:
 
 Team Lazyuo = [Dada](https://lazyduo.github.io/about/portfolio_dada/) + [Cera](https://lazyduo.github.io/about/portfolio_cera/) (since 2017)
 
+- [Youtube Thumbnail Gallery](https://lazyduo.github.io/thumbnail-gallery/)
+
 <!-- ---
 title: "About"
 permalink: /about/
