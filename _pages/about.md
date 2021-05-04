@@ -9,9 +9,8 @@ author_profile: false
 sidebar:
     nav: "about"
 ---
-About us..
 
-Team Lazyuo.
+Team Lazyuo = [Dada](https://lazyduo.github.io/about/portfolio_dada/) + [Cera](https://lazyduo.github.io/about/portfolio_cera/) (since 2017)
 
 <!-- ---
 title: "About"
