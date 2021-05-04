@@ -33,6 +33,7 @@ author_profile: true
 - Python, Django, C/C++
 
 - Thumbnail Gallery
+
 ## 취미
 
 - 게임 
