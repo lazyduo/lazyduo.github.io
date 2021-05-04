@@ -29,6 +29,6 @@ Machine Learning에서 Data가 Neural Network를 타고 들어갈때의 단위�
 
 ## Tutorial
 
-TensorFlow 사이트에 잘 정리된 [튜토리얼](https://www.tensorflow.org/tutorials/keras/classification?hl=en)이 있습니다. 같은 구글이라서 전에 Youtube API 문서 들여다 봤던 거랑 느낌이 아주 유사네요.
+TensorFlow 사이트에 잘 정리된 [튜토리얼](https://www.tensorflow.org/tutorials/keras/classification?hl=en)이 있습니다. 같은 구글이라서 전에 Youtube API 문서 들여다 봤던 거랑 느낌이 아주 유사하네요.
 
 차근차근 포스팅 할 예정입니다.
