@@ -60,6 +60,7 @@ translate:
 # about sidebar
 about:
   - title: "Portfolio"
+    url: /about/
     children:
       - title: "Cera"
         url: /about/portfolio_cera/
