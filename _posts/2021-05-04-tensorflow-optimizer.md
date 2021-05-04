@@ -52,7 +52,7 @@ model.compile(optimizer='adam',
 
 `learning rate`를 설정 할 때, 파라미터의 변화가 작으면 빠르게, 파라미터의 변화가 크면 느리게 조절준다.
 
-$$theta_i$$
+$$theta_i$$ $$\theta_i$$
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/adagrad-equation.png){: .align-center}
 
