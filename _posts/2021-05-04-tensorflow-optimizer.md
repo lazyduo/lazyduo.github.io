@@ -9,6 +9,8 @@ tags:
     - AIML
     - tensorflow
     - tutorial
+html header:
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ---
 
 ## Optimizer?
@@ -42,6 +44,8 @@ model.compile(optimizer='adam',
 이 때 다양한 방법들이 존재하는데 흔히 사용하는 **'adam'**도 그 경사하강법의 기법 중 하나 입니다.
 
 저도 아직 배우는 단계라 깊게는 들어가지 못하고, 어떤 종류가 있는지만 짧게 살펴보겠습니다.
+
+[링크](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)의 포스트를 참조했습니다.
 ### Momentum
 
 언덕에서 공을 굴리는 것과 같이, 오른 쪽 그림 처럼 경사가 있다면 그 관성을 고려하여 `learning rate`를 크게 잡아줍니다.
@@ -52,11 +56,16 @@ model.compile(optimizer='adam',
 
 `learning rate`를 설정 할 때, 파라미터의 변화가 작으면 빠르게, 파라미터의 변화가 크면 느리게 조절준다.
 
-$theta_i$
+$theta_i$ \theta_i \\theta_i\\
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/adagrad-equation.png){: .align-center}
 
 에타(learning rate)의 분모에 Gt가 그래디언트들의 합이기 때문에, 변화가 큰 경우 다음 파라미터를 탐색 할 때 작은 `learning rate`로 탐색하고 또한 역으로 작으면 큰 `learning rate`로 탐색 하는 것을 알 수 있다.
+
+### Adadelta
+
+
+
 
 
 ## Cost, Activation, Loss Function
