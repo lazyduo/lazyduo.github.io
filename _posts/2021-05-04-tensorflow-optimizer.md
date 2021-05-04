@@ -71,9 +71,9 @@ $theta_i$ \theta_i \\theta_i\\
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/RMSprop-equation.png){: .align-center}
 
-###
+### Adam
 
-
+`RMSporp`와 `Adadelta`를 합친 방법이라고 보면 됩니다. 예시로 가장 많이 쓰이는 것으로 보니, Performance가 가장 좋은 것 같습니다.
 
 ## Cost, Activation, Loss Function
 
