@@ -2,7 +2,7 @@
 title: "Dada"
 date: 2021-04-08 23:02:00 +0800
 classes: wide
-autor_profile: true
+author_profile: true
 ---
 
 취미로 코딩하고 있는 비전공자 직장인입니다.
