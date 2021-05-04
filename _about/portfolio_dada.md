@@ -14,9 +14,6 @@ author_profile: true
 아직 개발 경험이 부족한 것도 맞고, 직장 다니면서 따로 시간 내어 개발하는 것도 힘든 건 사실입니다. 하지만, 직장인 한테 정말 소중한 금요일, 주말 에도 코딩한다고 밤새고 있는 제 모습을 보면 원래 이 길이 맞지 않았나 싶습니다.
 
 
-<details><summary><a>CLICK ME</a></summary>
-<p>
-
 ## 학력
 
 - 졸) 서울과학고등학교 (2008 ~ 2011)
@@ -34,6 +31,8 @@ author_profile: true
 - [LOLHUB](https://lazyduo.github.io/tech/lolhub/) FE/BE
 
 - Python, Django, C/C++
+
+- Thumbnail Gallery
 ## 취미
 
 - 게임 
@@ -63,9 +62,6 @@ Connecting the Dots. 스티브 잡스가 했던 이 문구가 영향을 줘서 �
 - 20년도 초가을 부터 이대로는 안되겠다 싶어 갑자기 python을 배웠습니다. 코드아카데미로 기본 문법 배우고, 프로그래머스에서 문제 조금씩 풀어 봤습니다.
 
 - 20년도 9월 친구와 python project를 시작으로, 2020년 12월 SW개발그룹으로 업무 변경에 이어 단기간 삼성 SW 검정 Advanced 등급 취득으로 현재도 계속 개발자로서 커리어를 쌓기 위해 노력 중입니다.
-
-</p>
-</details>
 
 <!-- ```python
 from universe import human
