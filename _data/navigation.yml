@@ -26,7 +26,10 @@ tech:
       - title: "Django"
         url: /tech/django/
   - title: "Algorithm"
-    url: /tech/algorithm/        
+    url: /tech/algorithm/
+    children:
+      - title: "Theory"
+      - title: "Problem"        
   - title: "AI/ML"
     url: /tech/AIML/
     children:
