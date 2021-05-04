@@ -14,7 +14,7 @@ author_profile: true
 아직 개발 경험이 부족한 것도 맞고, 직장 다니면서 따로 시간 내어 개발하는 것도 힘든 건 사실입니다. 하지만, 직장인 한테 정말 소중한 금요일, 주말 에도 코딩한다고 밤새고 있는 제 모습을 보면 원래 이 길이 맞지 않았나 싶습니다.
 
 
-<details><summary>CLICK ME</summary>
+<details><summary><a>CLICK ME</a></summary>
 <p>
 
 ## 학력
