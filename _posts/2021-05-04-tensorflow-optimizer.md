@@ -10,7 +10,6 @@ tags:
     - tensorflow
     - tutorial
 html header:
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ---
 
 ## Optimizer?
@@ -64,7 +63,15 @@ $theta_i$ \theta_i \\theta_i\\
 
 ### Adadelta
 
+`Adagrad`에서 Gt가 모든 과거 그래디언트들의 제곱을 더하는게 아니라, 특정 `window`를 둬서 제한한 알고리즘입니다. `learning rate`가 너무 작아져서 학습이 멈추는 것을 방지한다고 합니다.
 
+### RMSprop
+
+`RMS`이름에서도 유추(?) 할 수 있듯이 `Adagrad`의 Gt항을 그래디언트의 제곱함으로 처리하게 됩니다.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/RMSprop-equation.png){: .align-center}
+
+###
 
 
 
