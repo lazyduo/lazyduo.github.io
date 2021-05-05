@@ -6,7 +6,7 @@ main:
   - title: "Translate"
     url: /translate/
 
-  - title: "Post"
+  - title: "Posts"
     url: /post/
 
   - title: "About"
@@ -66,3 +66,12 @@ about:
         url: /about/portfolio_cera/
       - title: "Dada"
         url: /about/portfolio_dada/
+
+
+# posts sidebar
+posts:
+  - titel: "Posts"
+    url: /post/
+    children:
+      - title: "tech"
+      - title: "pages"
