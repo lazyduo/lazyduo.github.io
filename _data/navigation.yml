@@ -72,8 +72,10 @@ about:
 posts:
   - title: "Posts"
     url: /post/
+  - title: "Pages"
+    url: /pages/
     children:
       - title: "About"
-        url: /post/about-collection/
+        url: /pages/about-collection/
       - title: "Tech"
-        url: /post/tech-collection/
+        url: /pages/tech-collection/

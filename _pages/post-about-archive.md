@@ -1,7 +1,7 @@
 ---
-title: Posts > About Collection
+title: Pages > About Collection
 layout: collection
-permalink: /post/about-collection/
+permalink: /pages/about-collection/
 collection: about
 author_profile: false
 classes: wide

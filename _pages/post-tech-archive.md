@@ -1,7 +1,7 @@
 ---
-title: Posts > Tech Collection
+title: Pages > Tech Collection
 layout: collection
-permalink: /post/tech-collection/
+permalink: /pages/tech-collection/
 collection: tech
 author_profile: false
 classes: wide
