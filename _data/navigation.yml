@@ -70,8 +70,10 @@ about:
 
 # posts sidebar
 posts:
-  - titel: "Posts"
+  - title: "Posts"
     url: /post/
     children:
-      - title: "tech"
-      - title: "pages"
+      - title: "About"
+        url: /post/about-archive/
+      - title: "Tech"
+        url: /post/tech-archive/
