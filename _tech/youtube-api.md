@@ -17,9 +17,9 @@ Youtube API를 사용하기 위해서는 OAuth 인증이 필수다. OAuth는 인
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/api-keys-overview.png){: .align-center}
 
-위 그림처럼, **API Key는 프로젝트**를 식별하고 승인하는 반면에, **Auth Token은 사용자**를 인증하고 승인한다. API Key는 결국 비밀번호와 같이 분실 위험이 있는 안전하지 않은 액세스 방법이기 때문에, 특정 IP 주소 범위, Android 앱, iOS 앱과 같은 환경에서만 사용할 수 있도록 '제한'하여 사용한다. 반면, Auth 체계는 사용자를 식별하는 안전한 방법을 제공하여 사용자의 secret정보를 노출하지 않으면서 API 호출을 가능하도록 한다.
+위 그림처럼, **API Key는 프로젝트**를 식별하고 승인하는 반면에, **Auth Token은 사용자**를 인증하고 승인한다. API Key는 결국 비밀번호와 같이 분실 위험이 있는 안전하지 않은 액세스 방법이기 때문에, 특정 IP 주소 범위, Android 앱, iOS 앱과 같은 제한된 환경에서만 사용할 수 있다. 반면, Auth 체계는 사용자를 식별하는 안전한 방법을 제공하여 사용자의 secret정보를 노출하지 않으면서 API 호출을 가능하도록 한다.
  
-여하튼, Youtube도 API를 사용하는데 있어서 어떤 'key'가 왔다갔다하면 보안 문제가 있을 수 있기 때문에, OAuth 2.0 토큰을 통해 안전하게 사용자 정보를 전달하면서 자신의 동영상 데이터 정보나, 업로드 등의 권한을 부여 할 수 있는 것이다.
+여하튼, Youtube도 API를 사용하는 데 있어서 어떤 'key'가 왔다 갔다 하면 보안 문제가 있을 수 있기 때문에, OAuth 2.0 토큰을 통해 안전하게 사용자 정보를 전달하면서 자신의 동영상 데이터 정보나, 업로드 등의 권한을 부여 할 수 있는 것이다.
 
 ## Get Credential
 
@@ -75,7 +75,7 @@ import google_auth_oauthlib.flow as gflow
 원하는 유저 정보를 조회해 보자. 위에서 얻은 Youtube 핸들 객체에 여러가지 명령어를 줄 수 있다. 내 채널에 무언가를 작성하기 이전에, 기존 데이터의 정보 조회 부터 해보자.
 
 
-기본적으로 `request` 작성, `request.execute()`, `response` 구조로 진행 된다. request에 내가 원하는 정보를 주문서 처럼 작성 하면 된다. 아래는 동영상 아이디를 전송해서 해당 아이디와 일치하는 영상의 정보(part)를 얻는 예시 이다. Youtube가 제공 가능한 정보는 이 [링크](https://developers.google.com/youtube/v3/docs/videos?hl=en)를 참고하자. (속성값이 꽤 많다)
+기본적으로 `request` 작성, `request.execute()`, `response` 구조로 진행 된다. `request`에 내가 원하는 정보를 주문서 처럼 작성 하면 된다. 아래는 동영상 아이디를 전송해서 해당 아이디와 일치하는 영상의 정보(part)를 얻는 예시 이다. Youtube가 제공 가능한 정보는 이 [링크](https://developers.google.com/youtube/v3/docs/videos?hl=en)를 참고하자. (속성값이 꽤 많다)
 
 
 ```python
@@ -94,7 +94,7 @@ import google_auth_oauthlib.flow as gflow
 
 ## Upload Video & Thumbnail
 
-최종 목표인 동영상 업로드와 썸네일 설정을 해보자. 썸네은 동영상 업로드하는 동시에 올리기가 불가능해서 `request`를 한 번 더 처리 하였다.
+최종 목표인 동영상 업로드와 썸네일 설정을 해보자. 썸네일은 동영상 업로드하는 동시에 올리기가 불가능해서 `request`를 한 번 더 처리 하였다.
 
 `youtube.videos().insert()`로 업로드 해주며, **body** 부분에 세팅하고 싶은 정보들을 넘겨주어 영상 타이틀, 설명, 태그 등을 설정해 줄 수 있다. **media_body** 부분에는 업로드할 영상의 경로를 넣어 주면 된다.
 
