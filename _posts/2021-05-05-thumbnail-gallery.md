@@ -1,7 +1,7 @@
 ---
 title: "Lazyduo Youtube Thumbnail Gallery"
 date: 2021-05-05 24:52:00 +0800
-classes: wide
+# classes: wide
 author_profile: false
 tags:
     - gallery
