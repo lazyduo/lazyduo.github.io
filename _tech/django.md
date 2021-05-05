@@ -45,7 +45,7 @@ Django를 이해하기 위해서 흔히 얘기하는 MVC 패턴과 비교하면 
 
 Django의 'Model'에서의 하나의 클래스는 하나의 DB Table이다. 나중에 살펴 보겠지만, Django의 Admin 페이지에서 model.py에서 생성한 DB를 관리하고 써 나갈 수 있다. 'View'는 MVC와 약간 다르게 요청에 대한 로직을 처리하고 응답으로 html파일을 cotext와 함께 렌더링해서 결과를 보여준다. 이 때, 제공하는 html이 'Template'이다. 약간 데이터를 포함하는 html이라고나 할까. Template Language를 통해 넘어오는 context를 가지고 if문을 쓸 수 도 있고 변수처럼 활용해서 사용하기도 한다. 마지막으로 urls.py가 있는데 url 패턴을 이용해서 view랑 매핑을 해준다. 
 
-Django의 MVT 패턴은 큰 프로젝트에도 적합하고, 수정이 용이한 장점이 있지만, 경험상 `url->view->template`이 엄청 꼬인다. 디버그 할 때 진짜 엄청 헷갈렸다. 예를 들어 url 패턴에 video id를 넣고, 그 url 그 id를 POST해서 view.py가 로직 처리하게하고 다시 url패턴으로 응답을 주면 url에 맞는 템플릿으로 보여지는 과정이 진짜 진짜 헷갈린다. (쓰면서도 헷갈림)
+Django의 MVT 패턴은 큰 프로젝트에도 적합하고, 수정이 용이한 장점이 있지만, 경험상 `url->view->template`이 엄청 꼬인다. 디버그 할 때 진짜 엄청 헷갈렸다. 예를 들어 url 패턴에 video id를 넣고, 그 url 그 id를 POST해서 view.py가 로직 처리하게하고 다시 url패턴으로 응답을 주면 url에 맞는 템플릿으로 보여지는 과정이 진짜 진짜 헷갈린다. (포스팅 하면서도 헷갈림)
 
 
 
