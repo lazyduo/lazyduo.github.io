@@ -6,7 +6,7 @@ collection: tech
 author_profile: false
 classes: wide
 sidebar:
-    nav: posts
+    nav: "posts"
 ---
 Recent Posts.---
 title: Post
