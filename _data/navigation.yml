@@ -39,7 +39,9 @@ tech:
     url: /tech/language/
     children:
       - title: "Python"
+        url: /tech/python/
       - title: "C/C++"
+        url: /tech/cpp/
   - title: "ETC"
     url: /tech/ETC/
     children:
