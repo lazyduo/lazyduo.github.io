@@ -10,6 +10,8 @@ tags:
     - ETC
     - ETC_Posts
 ---
+
+간단 사용법 정리 입니다. (기록용)
 ## Upbit Class instance 생성
 
 ```python
