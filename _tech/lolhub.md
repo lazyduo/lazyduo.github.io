@@ -14,7 +14,7 @@ sidebar:
 
     - [Thumbnail Generator](/tech/thumbnail-generator/)
     - [Youtube API](/tech/youtube-api/)
-    - [Django](/tech/djnago/)
+    - [Django](/tech/django/)
 
 - flow 설명 :
 
