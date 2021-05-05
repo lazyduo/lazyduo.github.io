@@ -2,7 +2,7 @@
 
 Welcome!
 
-We are interesed in programming and translation.
+We are interested in programming and translation.
 
 Check our blog [here](https://lazyduo.github.io/).
 
