@@ -13,6 +13,8 @@ LOLHUB Project에서는 웹으로 App을 사용하기 위해 Python 특화 웹 �
 
 그 때는 왜 하는지도 잘 몰랐고 이해 못하고 넘어가는 것들이 많았는데 다시 정리하면서 기억을 늦게나마 되살려 보자.
 
+- [private repository link](https://github.com/lazyduo/lol_hub_web)
+
 ## Django?
 
 [사이트](https://www.djangoproject.com/) 들어가 보면,
