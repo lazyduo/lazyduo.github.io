@@ -1,4 +1,18 @@
-## lazyduo.github.io
+# Personal Blog
+
+Welcome!
+
+We are interesed in programming and translation.
+
+Check our blog [here](https://lazyduo.github.io/).
+
+thank you all!
+
+-Team Lazyduo-
+
+<br>
+
+# Memo & Log
 2021-Apr-05
 
     create https://lazyduo.github.io
