@@ -10,7 +10,7 @@ sidebar:
     nav: "about"
 ---
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/dadacera.png){: .align-center}
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/dadacera.png){: .align-center}
 
 Team Lazyduo = [Dada](https://lazyduo.github.io/about/portfolio_dada/) + [Cera](https://lazyduo.github.io/about/portfolio_cera/) (since 2017)
 
