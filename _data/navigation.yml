@@ -74,6 +74,6 @@ posts:
     url: /post/
     children:
       - title: "About"
-        url: /post/about-archive/
+        url: /post/about-collection/
       - title: "Tech"
-        url: /post/tech-archive/
+        url: /post/tech-collection/
