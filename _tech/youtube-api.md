@@ -9,7 +9,7 @@ sidebar:
 
 ## 개요
 
-LOLHUB 프로젝트의 최종 단계는 클릭 한 번으로 자동으로 Youtube <span><i class="fa fa-youtube"></i></span>에 업로드 하는 것 까지 였습니다. 이 글에서는 Youtube API 사용을 위한 OAuth 자격 증명 방법과 Youtube Handle을 통한 자동 업로드까지 다뤄보도록 하겠습니다.
+LOLHUB 프로젝트의 최종 단계는 클릭 한 번으로 자동으로 Youtube에 업로드 하는 것까지 였습니다. 이 글에서는 Youtube API 사용을 위한 OAuth 자격 증명 방법과 Youtube Handle을 통한 자동 업로드까지 다뤄보도록 하겠습니다.
 
 ## OAuth?
 
