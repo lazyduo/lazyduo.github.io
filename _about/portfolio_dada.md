@@ -23,13 +23,19 @@ author_profile: true
 
   원래는 화학공학 전공을 살려 전기 자동차 배터리를 개발하는 엔지니어로 입사했습니다. 3년 차에는 '전지 설계 웹 시스템'을 구축하는 시스템 개발 PM 비슷한 업무를 하게 되었고, 외부 개발자들과 소통을 하기 위해 조금씩 프로그래밍 관련 공부도 하고 흥미를 두기 시작했습니다. 기본기를 갖추고 나서 5년 차에 완전히 개발자로 업무를 전환하고자 현재의 BMS(Battery Management System) 개발 그룹으로 왔습니다. 그래서 지금은 MATLAB & Simulink로 배터리 전기화학 모델링을 통한 BMS 알고리즘 선행개발을 하고 있습니다.
 
-## Project & Tech Stack
+## Project
 
 - [Project LOLHUB](https://lazyduo.github.io/tech/lolhub/) Thumbnail Generator, Youtube API, Django 등
 
-- Python, Django, C/C++
-
 - [Thumbnail Gallery](https://lazyduo.github.io/thumbnail-gallery/)
+
+## Tech Stack
+
+- Advanced : Python
+
+- Intermediate : Django, C/C++
+
+- Beginner : HTML / CSS, TensorFlow, Jekyll.. etc
 
 ## 취미
 
@@ -43,7 +49,7 @@ author_profile: true
 
 - 음악
 
-  어릴 때 피아노를 쳐서 고등학교 땐 동아리장으로 활동해 연주회도 하고 그랬습니다. 고등학교 때 강당에서 진짜 틈만 나면 쳤던 기억이 있습니다. 대학교 때는 자연스럽게(?) 밴드에서 신디사이저(키보드)를 했습니다. 너무 오랫동안 건반만 만져서 기타랑 베이스기타도 배우고, 베이스 기타로는 공연할 정도까지 했네요. 졸업하고 나서는 어쩔 수 없이 활동 못 하고 있지만, 기회만 되면 밴드는 꼭 다시 하고 싶습니다.
+  어릴 때 피아노를 쳐서 고등학교 땐 동아리장으로 활동해 연주회도 했습니다. 고등학교 때 강당에서 진짜 틈만 나면 쳤던 기억이 있습니다. 대학교 때는 자연스럽게(?) 밴드에서 신디사이저(키보드)를 했습니다. 너무 오랫동안 건반만 만져서 기타랑 베이스기타도 배우고, 베이스 기타로는 공연할 정도까지 했네요. 졸업하고 나서는 어쩔 수 없이 활동 못 하고 있지만, 기회만 되면 밴드는 꼭 다시 하고 싶습니다.
 
 - 운동
 
