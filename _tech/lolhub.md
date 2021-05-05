@@ -7,6 +7,10 @@ author_profile: false
 sidebar:
     nav: "tech"
 ---
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/lolhub-thumbnail.png){: .align-center}
+
+- [Youtube Channel Link](https://www.youtube.com/channel/UCMKzq7ckZQGIuKDwQu6Ds8A/featured)
 ## 프로젝트 개요
 - 기간 : 2020.09 ~ 2020.11
 - 목표 : 게임 하이라이트 자동 생성 및 유튜브 업로드 자동화 웹 서비스
