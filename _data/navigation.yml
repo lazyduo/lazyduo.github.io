@@ -64,10 +64,11 @@ about:
   - title: "Portfolio"
     url: /about/
     children:
-      - title: "Cera"
-        url: /about/portfolio_cera/
       - title: "Dada"
         url: /about/portfolio_dada/
+      - title: "Cera"
+        url: /about/portfolio_cera/
+
 
 
 # posts sidebar

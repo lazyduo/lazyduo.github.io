@@ -25,7 +25,7 @@ author_profile: true
 
 ## Project
 
-- [Project LOLHUB](https://lazyduo.github.io/tech/lolhub/) Thumbnail Generator, Youtube API, Django 등
+- [Project LOLHUB](https://lazyduo.github.io/tech/lolhub/) : Thumbnail Generator, Youtube API, Django 등
 
 - [Thumbnail Gallery](https://lazyduo.github.io/thumbnail-gallery/)
 
