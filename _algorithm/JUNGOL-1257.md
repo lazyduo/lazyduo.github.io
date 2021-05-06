@@ -12,7 +12,11 @@ tags:
 
 - [문제 링크](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=540&sca=99&sfl=wr_hit&stx=1257)
 
+**최장 증가 부분 수열(LIS:Longest Increasing Subsequence)** 응용 문제다. LIS 구현할 때, 다음 숫자를 업데이트 시킬 위치를 찾는 과정에서 cpp STL `<algorithm>`의 `lower_bound()`를 이용해 O(LogN)으로 처리해야만 전체 O(NlogN)으로 시간 통과할 수 있다.
 
+또한, 전깃줄을 지워 나갈 때 어떤 경로로 지우는지 알기 위해서 `<map>`으로 Path를 기록해야하 한다.
+
+**Tip** cpp의 `<map>`은 python의 Dictionary와는 다르게 넣으면서 자동으로 정렬 된다.
 
 ```cpp
 /**************************************************************
@@ -28,7 +32,6 @@ tags:
 #include <map>
 #include <vector>
 #include <algorithm>
-#include <iostream>
  
 using namespace std;
  
