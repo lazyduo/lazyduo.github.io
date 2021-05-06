@@ -3,7 +3,7 @@ main:
   - title: "Tech"
     url: /tech/
     # url: /docs/quick-start-guide/
-  - title: "Translate"
+  - title: "Translation"
     url: /translate/
 
   - title: "Posts"
