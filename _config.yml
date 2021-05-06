@@ -284,6 +284,9 @@ collections:
   tech:
     output: true
     permalink: /:collection/:path/
+  algorithm:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -342,5 +345,16 @@ defaults:
       read_time: true
       sidebar:
         nav: "about"
-      
+
+  # _algorithm
+  - scope:
+      path: ""
+      type: algorithm
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      read_time: true
+      sidebar:
+        nav: "tech"
 
