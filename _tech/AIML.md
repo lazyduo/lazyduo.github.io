@@ -1,8 +1,7 @@
 ---
 title: "Tech > AI/ML"
 layout: tag
-taxonomy: 
-    - AIML
+taxonomy: AIML
 classes: wide
 author_profile: false
 sidebar:

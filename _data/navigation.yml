@@ -79,3 +79,5 @@ posts:
         url: /pages/about-collection/
       - title: "Tech"
         url: /pages/tech-collection/
+      - title: "Algorithm"
+        url: /pages/algorithm-collection/

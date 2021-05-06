@@ -1,7 +1,7 @@
 ---
 title: "Tech > Algorithm"
-layout: tag
-taxonomy: algorithm
+layout: collection
+collection: algorithm
 classes: wide
 author_profile: false
 sidebar:
