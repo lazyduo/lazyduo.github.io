@@ -25,11 +25,6 @@ tech:
         url: /tech/youtube-api/
       - title: "Django"
         url: /tech/django/
-  - title: "Algorithm"
-    url: /tech/algorithm/
-    children:
-      - title: "Theory"
-      - title: "Problem"        
   - title: "AI/ML"
     url: /tech/AIML/
     children:
@@ -42,6 +37,8 @@ tech:
         url: /tech/python/
       - title: "C/C++"
         url: /tech/cpp/
+  - title: "Algorithm"
+    url: /tech/algorithm/   
   - title: "ETC"
     url: /tech/ETC/
     children:
