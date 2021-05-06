@@ -6,7 +6,7 @@ toc_sticky: true
 tags:
     - tech
     - ETC
-    - GitHub_Pages
+    - Github_Pages
 ---
 현재 제 페이지는 Minimal Mistakes 템플릿을 사용 중입니다. 포스팅이 길어 지면 위로 돌아가는 버튼이 있으면 좋겠다는 생각이 많이 들어서 그 방법을 찾아 보았습니다.
 

@@ -38,7 +38,7 @@ tech:
       - title: "C/C++"
         url: /tech/cpp/
   - title: "Algorithm"
-    url: /tech/algorithm/   
+    url: /tech/algorithm/
   - title: "ETC"
     url: /tech/ETC/
     children:
