@@ -19,15 +19,6 @@ tags:
 **Tip** cpp의 `<map>`은 python의 Dictionary와는 다르게 넣으면서 자동으로 정렬 된다.
 
 ```cpp
-/**************************************************************
-    Problem: 1257
-    User: dadanuna
-    Language: C++
-    Result: Success
-    Time:233 ms
-    Memory:16604 kb
-****************************************************************/
- 
 #include <stdio.h>
 #include <map>
 #include <vector>
