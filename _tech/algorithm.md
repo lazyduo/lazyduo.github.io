@@ -1,6 +1,7 @@
 ---
 title: "Tech > Algorithm"
 layout: collection
+permalink: /tech/algorithm/ 
 collection: algorithm
 classes: wide
 author_profile: false

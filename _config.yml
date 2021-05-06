@@ -348,7 +348,7 @@ defaults:
 
   # _algorithm
   - scope:
-      path: "_algorithm"
+      path: ""
       type: algorithm
     values:
       layout: single
