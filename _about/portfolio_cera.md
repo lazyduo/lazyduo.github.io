@@ -5,5 +5,4 @@ author_profile: true
 author: Cera
 ---
 
-항상 고민하는 번역가.
-말랑이 또맹이 누나.
+항상 고민하는 번역가.<br>말랑이 또맹이 누나.

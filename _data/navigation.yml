@@ -6,6 +6,9 @@ main:
   - title: "Translation"
     url: /translate/
 
+  - title: "Daily"
+    url: /daily/
+
   - title: "Posts"
     url: /post/
 
@@ -55,6 +58,19 @@ translate:
 
       - title: "Team Waldo"
 
+# daily sidebar
+daily:
+  - title: "Games"
+    url: /daily/games/
+    children:
+      - title: "PS"
+        url: /daily/games/PS/
+      - title: "Nintendo Switch"
+        url: /daily/games/NSwitch/
+      - title: "XBox"
+        url: /daily/games/xbox/
+  - title: "About everything"
+    url: /daily/about_everything/
 
 # about sidebar
 about:
