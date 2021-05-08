@@ -16,6 +16,7 @@ double 자료형의 사용과 유효숫자를 고려하여 천분률로 count �
 - [문제 링크](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=508&sca=99)
 
 ```cpp
+
 /**************************************************************
     Result: Success
     Time:24 ms

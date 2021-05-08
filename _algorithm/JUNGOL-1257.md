@@ -19,6 +19,7 @@ tags:
 - [문제 링크](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=540&sca=99&sfl=wr_hit&stx=1257)
 
 ```cpp
+
 /**************************************************************
     Result: Success
     Time:233 ms

@@ -21,6 +21,7 @@ tags:
 - [문제 링크](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1219&sca=5030)
 
 ```cpp
+
 /**************************************************************
     Result: Success
     Time:2 ms

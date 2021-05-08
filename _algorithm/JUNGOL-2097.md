@@ -31,6 +31,7 @@ Dijkstra 알고리즘은 정말 중요한 알고리즘이므로 반드시 알아
 - [문제 링크](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1360&sca=4070)
 
 ```cpp
+
 /**************************************************************
     Result: Success
     Time:1 ms
