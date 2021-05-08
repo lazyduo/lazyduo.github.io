@@ -6,7 +6,8 @@ taxonomy: daily
 # collection: daily
 # entries_layout: grid
 classes: wide
-author_profile: Lazyduo
+author_profile: true
+author: Lazyduo
 sidebar:
     nav: "daily"
 ---
