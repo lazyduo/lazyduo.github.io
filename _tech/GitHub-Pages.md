@@ -2,6 +2,7 @@
 title: "Tech > ETC > GitHub Pages"
 layout: tag
 taxonomy: Github_Pages
+permalink: /tech/GitHub-Pages/
 classes: wide
 author_profile: false
 sidebar:
