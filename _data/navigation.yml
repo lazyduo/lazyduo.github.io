@@ -63,7 +63,7 @@ daily:
   - title: "Games"
     url: /daily/games/
     children:
-      - title: "Play Station4"
+      - title: "Play Station 4"
         url: /daily/games/playstation4/
       - title: "Nintendo Switch"
         url: /daily/games/NSwitch/
