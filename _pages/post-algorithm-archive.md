@@ -7,5 +7,4 @@ author_profile: false
 classes: wide
 sidebar:
     nav: "posts"
-sort_order: reverse
 ---
