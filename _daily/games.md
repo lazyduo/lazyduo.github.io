@@ -1,5 +1,5 @@
 ---
-title: "Daily > Games"
+title: "Games"
 layout: tag
 taxonomy: games
 classes: wide
