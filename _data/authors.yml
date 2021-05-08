@@ -14,6 +14,21 @@ Cera:
     - label: "ichbincera@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ichbincera@gmail.com"
+    
+Lazyduo:
+  name        : "Lazyduo"
+  bio         : "Dada and Cera"
+  avatar      : "/assets/images/lazyduo-profile.jpg"
+  links:
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/lazyduo"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC7rDtbNgtzHEV6Qos1w0ZKw"
+    - label: "lazyduotv@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lazyduotv@gmail.com"
 
 # Cornelius Fiddlebone:
 #   name        : "Cornelius Fiddlebone"
