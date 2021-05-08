@@ -13,4 +13,4 @@ sidebar:
 일상 이야기와 게임 리뷰.
 
 - [Games](/daily/games/)
-- [About everything](/daily/about_everything)/)
+- [About everything](/daily/about_everything/)
