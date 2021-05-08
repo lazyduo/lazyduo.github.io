@@ -287,6 +287,9 @@ collections:
   algorithm:
     output: true
     permalink: /:collection/:path/
+  daily:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -358,3 +361,13 @@ defaults:
       sidebar:
         nav: "tech"
 
+  # _daily
+  - scope:
+      path: ""
+      type: daily
+    values:
+      layout: single
+      suthor_profiel: true
+      read_time: true
+      sidebar:
+        nav: "daily"
