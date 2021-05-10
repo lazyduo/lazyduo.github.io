@@ -9,6 +9,7 @@ tags:
     - tech
     - ETC
     - ETC_Posts
+    - cypto
 ---
 
 간단 사용법 정리 입니다. (기록용)

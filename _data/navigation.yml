@@ -47,6 +47,8 @@ tech:
     children:
       - title: "GitHub Pages"
         url: /tech/GitHub-Pages/
+      - title: "Crypto"
+        url: /tech/crypto/  
       - title: "Posts"
         url: /tech/ETC_Posts/
 
