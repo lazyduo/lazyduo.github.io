@@ -37,6 +37,14 @@ author_profile: true
 
 - Beginner : HTML / CSS, TensorFlow, Jekyll.. etc
 
+## 자격
+
+- 삼성 SW 검정 시험 Pro 등급
+- GTQ 그래픽기술자격 1급 (포토샵)
+- 워드프로세서 2급
+- 한글파워포인트 B등급
+- OPIc IH
+
 ## 취미
 
 - 게임 
@@ -79,8 +87,6 @@ Connecting the Dots. 스티브 잡스가 했던 이 문구가 영향을 줘서 �
 - 20년도 초가을부터 이대로는 안 되겠다 싶어 갑자기 python을 배웠습니다. 코드카데미로 기본 문법 배우고, 프로그래머스에서 문제 조금씩 풀어 봤습니다.
 
 - 20년도 9월 친구와 python project를 시작으로, 2020년 12월 SW개발그룹으로 업무 변경에 이어 단기간 삼성 SW 검정 Advanced 등급 취득으로 현재도 계속 개발자로서 커리어를 쌓기 위해 노력 중입니다.
-
-- 21.05.10 삼성 SW 검정 Professional 등급 취득
 
 <br>
 
