@@ -5,9 +5,9 @@ Cera:
   bio         : "Dada's best friend"
   avatar      : "/assets/images/cera_profile.jpg"
   links:
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/lazyduo"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ichbincera"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/cerahong"
