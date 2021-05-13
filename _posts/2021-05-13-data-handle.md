@@ -19,7 +19,7 @@ import pandas as pd
 import sklearn.linear_model
 ```
 
-## numpy, pandas
+## numpy & pandas
 
 ### 기본 Example
 
@@ -82,3 +82,12 @@ from sklearn.model_selection import train_test_split
 
 train_set, test_set = train_test_split(data, test_size=0.2, random_state=42, stratify=df["target"])
 ```
+
+## NaN 처리
+
+Nan 확인 : `incomplete_rows = df[df.isnull().any(axis=1)].head()`
+
+삭제 / 채우기
+1. `df.dropna(axis=1)` NaN이 있는 '열'을 삭제
+2. `df.drop("cols1", axis=1)` NaN이 있는 열을 알고 있다면, 해당열을 찍어서 삭제
+3. `df["cols1"].fillna(median, inplace=True)` 이 때, median = `df[cols1"].median()`. inplace=True 는 기존 DataFrame에 채워 넣는다.
