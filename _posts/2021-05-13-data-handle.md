@@ -31,12 +31,13 @@ import sklearn.linear_model
     ```
 - `df.head()` : DataFrame class의 처음 5개 행까지의 데이터를 보여준다.
 - `df.info()` : 정보 표시 (column의 종류, 타입 등)
-- `df["col1"].value_counts()` : col1 이름의 column에서 valu 값들을 count 해준다.
+- `df["col1"].value_counts()` : col1 이름의 column에서 value 값들을 count 해준다.
 - `df.describe()` : count, mean, std, min, 사분위, max의 요약 통계 정보를 column별로 보여준다.
 - index 순서로 정렬 : `pd.DataFrame(~~).sort_index()`
 - `corr_matrix = df.corr()` : 상관계수 매트릭스 (DataFrame 형태로 리턴)
 - `df.sort_values(ascending=False)` value 기준으로 내림 차순 정렬
 - `df.drop("col", axis=1)` label 삭제
+- `df.loc[df_1.index.values]` df_1의 인덱스와 동일하게 df를 보기 
 
 ### 기존 column을 원하는 구간으로 나눠서 새롭게 라벨링하기
 
@@ -85,9 +86,33 @@ train_set, test_set = train_test_split(data, test_size=0.2, random_state=42, str
 
 ## NaN 처리
 
-Nan 확인 : `incomplete_rows = df[df.isnull().any(axis=1)].head()`
+- Nan 확인
 
-삭제 / 채우기
-1. `df.dropna(axis=1)` NaN이 있는 '열'을 삭제
-2. `df.drop("cols1", axis=1)` NaN이 있는 열을 알고 있다면, 해당열을 찍어서 삭제
-3. `df["cols1"].fillna(median, inplace=True)` 이 때, median = `df[cols1"].median()`. inplace=True 는 기존 DataFrame에 채워 넣는다.
+    `incomplete_rows = df[df.isnull().any(axis=1)].head()`
+
+- 삭제 / 채우기
+    1. `df.dropna(axis=1)` NaN이 있는 '열'을 삭제
+    2. `df.drop("cols1", axis=1)` NaN이 있는 열을 알고 있다면, 해당열을 찍어서 삭제
+    3. `df["cols1"].fillna(median, inplace=True)` 이 때, median = `df[cols1"].median()`. inplace=True 는 기존 DataFrame에 채워 넣는다.
+
+- sklearn 이용 (imputer)
+
+    ```python
+    from sklearn.impute import SimpleImputer
+    imputer = SimpleImputer(strategy="median") # mean, most_frequent, constant(fill_value)...
+    ```
+    median이 수치형 특성에만 계산 될 수 있기 때문에 텍스트 특성은 삭제하고 하는 것이 좋음
+    
+    ```python
+    # check
+    imputer.fit(df)
+    imputer.statistics_
+    ```
+    
+    다시 DataFrame로 받기
+    
+    ```python
+    X = imputer.transform(df)
+    df_tr = pd.DataFrame(X, columns=df.columns, index=df.index)
+    ```
+
