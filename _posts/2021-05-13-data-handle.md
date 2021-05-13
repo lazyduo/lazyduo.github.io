@@ -2,6 +2,7 @@
 title: "Data Handling for ML"
 date: 2021-05-13 11:34:00 +0900
 classes: wide
+toc: true
 tags:
     - tech
     - AIML
