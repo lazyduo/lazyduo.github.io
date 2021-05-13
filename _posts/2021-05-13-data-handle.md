@@ -26,3 +26,13 @@ import sklearn.linear_model
     ```python
     X = df.to_numpy().reshape(-1,1)
     ```
+
+## train / test split
+
+주어진 `data`에서 train / test 용 data를 split 하는 방법
+
+```python
+from sklearn.model_selection import train_test_split
+
+train_set, test_set = train_test_split(data, test_size=0.2, random_state=42)
+```
