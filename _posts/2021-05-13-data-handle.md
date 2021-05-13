@@ -36,6 +36,7 @@ import sklearn.linear_model
 - index 순서로 정렬 : `pd.DataFrame(~~).sort_index()`
 - `corr_matrix = df.corr()` : 상관계수 매트릭스 (DataFrame 형태로 리턴)
 - `df.sort_values(ascending=False)` value 기준으로 내림 차순 정렬
+- `df.drop("col", axis=1)` label 삭제
 
 ### 기존 column을 원하는 구간으로 나눠서 새롭게 라벨링하기
 
