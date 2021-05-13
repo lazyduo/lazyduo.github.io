@@ -45,7 +45,15 @@ df["new"] = pd.cut(df["old"],
                    labels=[1, 2, 3, 4, 5])
 ```
 
+### plot
 
+pandas의 DataFrame은 plot 기능을 제공하며, 아래와 같이 사용한다. `alpha` 값을 주어 밀집 현황도 잘 볼 수 있다.
+
+or `df.plot.scatter(x="", y="")` 도 가능
+
+```python
+df.plot(kind="scatter", x="x_name", y="y_name", alpha=0.1)
+```
 
 ## train / test split
 
