@@ -21,11 +21,16 @@ import sklearn.linear_model
 
 ## numpy, pandas
 
-- dataframe을 numpy로 변환 및 원하는 shape로 바꾸는 방법
+- DataFrame을 numpy로 변환 및 원하는 shape로 바꾸는 방법
 
     ```python
     X = df.to_numpy().reshape(-1,1)
     ```
+    
+- `df.head()` : DataFrame class의 처음 5개 행까지의 데이터를 보여준다.
+- `df.info()` : 정보 표시 (column의 종류, 타입 등)
+- `df["col1"].value_counts()` : col1 이름의 column에서 valu 값들을 count 해준다.
+- `df.describe()` : count, mean, std, min, 사분위, max의 요약 통계 정보를 column별로 보여준다.
 
 ## train / test split
 
