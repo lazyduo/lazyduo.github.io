@@ -55,6 +55,19 @@ or `df.plot.scatter(x="", y="")` 도 가능
 df.plot(kind="scatter", x="x_name", y="y_name", alpha=0.1)
 ```
 
+심화 버전
+
+`s` : 원의 size를 의미. 값에 대응 시켜 원의 크기를 조절 할 수 도 있다.
+`c` : color-> 어떤 컬럼을 이용해서 색깔 변화를 줄지 선택한다.
+`cmap` : 사용할 컬러 맵을 선택한다. 보통 "jet"가 많이 쓰임.
+
+```python
+df.plot(kind="scatter", x="x_name", y="y_name", alpha=0.4,
+             s=df["col1"]/100, label="This is label", figsize=(10,7),
+             c="col2", cmap=plt.get_cmap("jet"), colorbar=True,
+             sharex=False)
+ ```
+
 ## train / test split
 
 주어진 `data`에서 train / test 용 data를 split 하는 방법
