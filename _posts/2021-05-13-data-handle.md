@@ -21,7 +21,7 @@ import sklearn.linear_model
 
 ## numpy, pandas
 
-### 기본
+### 기본 Example
 
 - DataFrame 생성 : `pd.DataFrame('dictionary')`
 - DataFrame을 numpy로 변환 및 원하는 shape로 바꾸는 방법
@@ -34,7 +34,8 @@ import sklearn.linear_model
 - `df["col1"].value_counts()` : col1 이름의 column에서 valu 값들을 count 해준다.
 - `df.describe()` : count, mean, std, min, 사분위, max의 요약 통계 정보를 column별로 보여준다.
 - index 순서로 정렬 : `pd.DataFrame(~~).sort_index()`
-- `df.corr()` : 상관계수
+- `corr_matrix = df.corr()` : 상관계수 매트릭스 (DataFrame 형태로 리턴)
+- `df.sort_values(ascending=False)` value 기준으로 내림 차순 정렬
 
 ### 기존 column을 원하는 구간으로 나눠서 새롭게 라벨링하기
 
