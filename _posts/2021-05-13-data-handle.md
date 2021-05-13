@@ -34,6 +34,7 @@ import sklearn.linear_model
 - `df["col1"].value_counts()` : col1 이름의 column에서 valu 값들을 count 해준다.
 - `df.describe()` : count, mean, std, min, 사분위, max의 요약 통계 정보를 column별로 보여준다.
 - index 순서로 정렬 : `pd.DataFrame(~~).sort_index()`
+- `df.corr()` : 상관계수
 
 ### 기존 column을 원하는 구간으로 나눠서 새롭게 라벨링하기
 
@@ -57,9 +58,9 @@ df.plot(kind="scatter", x="x_name", y="y_name", alpha=0.1)
 
 심화 버전
 
-`s` : 원의 size를 의미. 값에 대응 시켜 원의 크기를 조절 할 수 도 있다.
-`c` : color-> 어떤 컬럼을 이용해서 색깔 변화를 줄지 선택한다.
-`cmap` : 사용할 컬러 맵을 선택한다. 보통 "jet"가 많이 쓰임.
+- `s` : 원의 size를 의미. 값에 대응 시켜 원의 크기를 조절 할 수 도 있다.
+- `c` : color-> 어떤 컬럼을 이용해서 색깔 변화를 줄지 선택한다
+- `cmap` : 사용할 컬러 맵을 선택한다. 보통 "jet"가 많이 쓰임.
 
 ```python
 df.plot(kind="scatter", x="x_name", y="y_name", alpha=0.4,
