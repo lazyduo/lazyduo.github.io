@@ -116,4 +116,17 @@ train_set, test_set = train_test_split(data, test_size=0.2, random_state=42, str
     X = imputer.transform(df)
     df_tr = pd.DataFrame(X, columns=df.columns, index=df.index)
     ```
+    
+## object 열 처리
+
+`OneHotEncoder` : object를 `[[0, 0, 0, 1], ... [1, 0, 0, 0]]`과 같은 형태로 반환해 준다.
+
+```python
+from sklearn.preprocessing import OneHotEncoder
+
+encoder = OneHotEncoder(sparse=False) # toarray() 생략 위함
+df_hot = encoder.fit_transform(df) # fit과 transform 한번에 가능
+encode.categories_ # category 확인
+```
+
 
