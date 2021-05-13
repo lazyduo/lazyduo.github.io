@@ -21,6 +21,8 @@ import sklearn.linear_model
 
 ## numpy, pandas
 
+### 기본
+
 - DataFrame을 numpy로 변환 및 원하는 shape로 바꾸는 방법
 
     ```python
@@ -31,6 +33,18 @@ import sklearn.linear_model
 - `df.info()` : 정보 표시 (column의 종류, 타입 등)
 - `df["col1"].value_counts()` : col1 이름의 column에서 valu 값들을 count 해준다.
 - `df.describe()` : count, mean, std, min, 사분위, max의 요약 통계 정보를 column별로 보여준다.
+
+### 기존 column을 원하는 구간으로 나눠서 새롭게 라벨링하기
+
+`pd.cut()` method를 사용하며, `bins` 에 원하는 구간을 설정하고 `labels`에 원하는 라벨을 새로 설정한다.
+
+```python
+df["new"] = pd.cut(df["old"],
+                   bins=[0., 2., 4., 6., 8., np.inf],
+                   labels=[1, 2, 3, 4, 5])
+```
+
+
 
 ## train / test split
 
