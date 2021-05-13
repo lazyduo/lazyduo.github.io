@@ -50,8 +50,10 @@ df["new"] = pd.cut(df["old"],
 
 주어진 `data`에서 train / test 용 data를 split 하는 방법
 
+'stratify'는 특정 컬럼의 라벨 비율을 유지하면서 test set을 split하는데 사용 된다.
+
 ```python
 from sklearn.model_selection import train_test_split
 
-train_set, test_set = train_test_split(data, test_size=0.2, random_state=42)
+train_set, test_set = train_test_split(data, test_size=0.2, random_state=42, stratify=df["target"])
 ```
