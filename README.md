@@ -35,11 +35,7 @@ thank you all!
     pyupbit project start
     adjust Nanum font
     
-2021-Apr-28
-
-    네이버웹툰 AI Application Engineer 준비
-    
-today's tip
+Memo
 
 win32gui, win32api 류는 아래로 hidden import해야 정상적으로 exe 파일 만들어진다.
 
