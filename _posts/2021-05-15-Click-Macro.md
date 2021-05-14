@@ -2,6 +2,7 @@
 title: "Click Macro 만들기 - 기록 (1)"
 date: 2021-05-15 02:23:00 +0900
 classes: wide
+toc: true
 tags:
     - tech
     - ETC
