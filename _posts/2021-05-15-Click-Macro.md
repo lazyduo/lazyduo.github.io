@@ -7,6 +7,7 @@ tags:
     - tech
     - ETC
     - ETC_Posts
+    - language
     - python
 ---
 

@@ -7,6 +7,7 @@ tags:
     - tech
     - ETC
     - ETC_Posts
+    - language
     - python
 ---
 
@@ -49,6 +50,9 @@ class Ui(QtWidgets.QMainWindow):
         context ={'name': self.selected_window_name, 'hwnd': self.selected_window_hwnd}
         self.macroThread = threading.Thread(target=self.runMacro, daemon=True, kwargs=context)
         self.macroThread.start()
+
+    def stopMacro(self):
+        self.stop_event.set()
 
     def runMacro(self, **kwargs):
         self.macro = Window(**kwargs)
