@@ -35,6 +35,10 @@ thank you all!
     pyupbit project start
     adjust Nanum font
     
+2021-May-17
+
+    github status error reoport
+    
 Memo
 
 win32gui, win32api 류는 아래로 hidden import해야 정상적으로 exe 파일 만들어진다.
