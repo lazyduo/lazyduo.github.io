@@ -1,5 +1,5 @@
 ---
-title: "[책] Hands On Machine Learning - O'Reilly"
+title: "[책] Hands On Machine Learning - Aurélien Géron"
 date: 2021-05-16 14:25:00 +0900
 classes: wide
 tags:
@@ -9,7 +9,7 @@ tags:
     - book
 ---
 
-Hands On Machine Learing with Sciket-Learn, keras & TensorFlow (2nd Edition) - O'Reilly
+Hands On Machine Learing with Sciket-Learn, keras & TensorFlow (2nd Edition) - Aurélien Géron
 
 원서를 79,800원이라는 비싼 돈 주고 덜컥 구매하였다.. 올 칼라여서 비싼가 보다..
 
