@@ -22,6 +22,9 @@ Hands On Machine Learing with Sciket-Learn, keras & TensorFlow (2nd Edition) - A
 <역자 박해선 님 강의>
 
 핸즈온 머신러닝 2: https://tensorflow.blog/handson-ml2
+
 깃허브: http://bit.ly/homl2-git
+
 슬라이드: http://bit.ly/homl2-slide 
+
 유튜브: http://bit.ly/homl2-youtube
