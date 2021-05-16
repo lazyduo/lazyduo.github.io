@@ -1,5 +1,5 @@
 ---
-title: "[책] Clean Code "
+title: "[책] Clean Code - Robert C. Martin"
 date: 2021-05-15 21:25:00 +0900
 classes: wide
 tags:
