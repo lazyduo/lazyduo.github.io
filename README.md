@@ -37,7 +37,7 @@ thank you all!
     
 2021-May-17
 
-    github status error reoport
+    github pages error 정상화 확인 (githubstatus.com)
     
 Memo
 
