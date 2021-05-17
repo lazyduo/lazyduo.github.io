@@ -2,6 +2,7 @@
 title: "불균형 데이터 분류"
 date: 2021-05-17 10:58:00 +0900
 classes: wide
+toc: true
 tags:
     - tech
     - AIML
@@ -99,6 +100,8 @@ Weight for class 1: 3.50
 ```python
 model.fit(train_X, train_y, epochs=10, class_weight=class_weight)
 ```
+
+## 결과
 
 그 후 예측 결과
 
