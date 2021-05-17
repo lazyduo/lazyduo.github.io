@@ -130,4 +130,10 @@ df_hot = encoder.fit_transform(df) # fit과 transform 한번에 가능
 encode.categories_ # category 확인
 ```
 
+## SQL과의 비교
+
+SQL 처럼 쓰고 싶을 때를 위한 메모
+
+[링크](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html) 참고
+
 
