@@ -49,12 +49,12 @@ Django 개발하면서 자바스크립트로 Ajax도 사용했었지만, 딱히 
 
 ### Strings
 
-    ```javascript
-    'hello'.length; // 5
-    'hello'.charAt(0); // "h"
-    'hello, world'.replace('world', 'mars'); // "hello, mars"
-    'hello'.toUpperCase(); // "HELLO"
-    ```
+```javascript
+'hello'.length; // 5
+'hello'.charAt(0); // "h"
+'hello, world'.replace('world', 'mars'); // "hello, mars"
+'hello'.toUpperCase(); // "HELLO"
+```
 
 ### Variables
 
