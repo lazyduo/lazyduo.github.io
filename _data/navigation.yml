@@ -40,6 +40,8 @@ tech:
         url: /tech/python/
       - title: "C/C++"
         url: /tech/cpp/
+      - title: "HTML/CSS/JS"
+        url: /tech/HTMLCSSJS/
   - title: "Algorithm"
     url: /tech/algorithm/
   - title: "ETC"
