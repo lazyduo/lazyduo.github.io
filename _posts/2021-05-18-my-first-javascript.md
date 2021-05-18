@@ -58,132 +58,132 @@ Django 개발하면서 자바스크립트로 Ajax도 사용했었지만, 딱히 
 
 ### Variables
 
-    선언하는 방법에는 `let`, `const`, `var`가 있음.
+선언하는 방법에는 `let`, `const`, `var`가 있음.
 
-    `let`은 잘 안 쓰이고 웬만하면 `var`로 사용하는 것으로 보임.
+`let`은 잘 안 쓰이고 웬만하면 `var`로 사용하는 것으로 보임.
 
 ### Operators
 
-    '=='은 type이 달라도 같다고 인식한다. 그래서 '==='을 쓴다.
+'=='은 type이 달라도 같다고 인식한다. 그래서 '==='을 쓴다.
 
-    ```javascript
-    123 == '123'; // true
-    1 == true; // true
-    
-    123 === '123'; // false
-    1 === true;    // false
-    ```
+```javascript
+123 == '123'; // true
+1 == true; // true
+
+123 === '123'; // false
+1 === true;    // false
+```
 
 
 ### Control Structures
 
-    if, if else, for, while, switch 등 C/C++과 동일
+if, if else, for, while, switch 등 C/C++과 동일
 
 ### Objects
 
-    Python의 Dictionary와 사용법과 기능이 거의 같고, JSON 형식으로 써 내려가면 된다.
+Python의 Dictionary와 사용법과 기능이 거의 같고, JSON 형식으로 써 내려가면 된다.
 
-    ```javascript
-    var obj = {
-        name: 'Carrot',
-        _for: 'Max', // 'for' is a reserved word, use '_for' instead.
-        details: {
-            color: 'orange',
-            size: 12
-        }
-    };
-    ```
+```javascript
+var obj = {
+    name: 'Carrot',
+    _for: 'Max', // 'for' is a reserved word, use '_for' instead.
+    details: {
+        color: 'orange',
+        size: 12
+    }
+};
+```
 
 ### Arrays
 
-    Python의 List와 거의 같다. 특이한 점은 `a[100]`이 뜬금없이 바로 먹힌다. 그 사이 인덱스들의 값은 undefined 처리 된다.
+Python의 List와 거의 같다. 특이한 점은 `a[100]`이 뜬금없이 바로 먹힌다. 그 사이 인덱스들의 값은 undefined 처리 된다.
 
-    ```javascript
-    var a = ['dog', 'cat', 'hen'];
-    a[100] = 'fox';
-    a.length; // 101
-    typeof a[90]; // undefined
-    ```
-    - a.push(), a.pop() 등 사용 가능
+```javascript
+var a = ['dog', 'cat', 'hen'];
+a[100] = 'fox';
+a.length; // 101
+typeof a[90]; // undefined
+```
+- a.push(), a.pop() 등 사용 가능
 
 ### Functions
 
-    기본형
+기본형
 
-    ```javascript
-    function add(x, y) {
-    var total = x + y;
-    return total;
-    }
-    ```
+```javascript
+function add(x, y) {
+var total = x + y;
+return total;
+}
+```
 
-    특이한 점은 Python의 *args처럼 `...args(arguments)`로 변수를 넣을 수 있다.
+특이한 점은 Python의 *args처럼 `...args(arguments)`로 변수를 넣을 수 있다.
 
-    ```javascript
-    function avg(...args) {
-    var sum = 0;
-    for (let value of args) {
-        sum += value;
-    }
-    return sum / args.length;
-    }
+```javascript
+function avg(...args) {
+var sum = 0;
+for (let value of args) {
+    sum += value;
+}
+return sum / args.length;
+}
 
-    avg(2, 3, 4, 5); // 3.5
-    ```
+avg(2, 3, 4, 5); // 3.5
+```
 
-    - array를 argument로 바꾸려면 `apply()`를 사용한다.
+- array를 argument로 바꾸려면 `apply()`를 사용한다.
 
-    ```javascript
-    avg.apply(null, [2, 3, 4, 5]); // 3.5
-    ```
+```javascript
+avg.apply(null, [2, 3, 4, 5]); // 3.5
+```
 
 ### Custom Objects
 
-    자바스크립트는 클래스 객체가 없는 대신, Function으로 그 기능을 대체한다.
+자바스크립트는 클래스 객체가 없는 대신, Function으로 그 기능을 대체한다.
 
-    ```javascript
-    function Person(first, last) {
-    this.first = first;
-    this.last = last;
-    this.fullName = function() {
-        return this.first + ' ' + this.last;
-    };
-    this.fullNameReversed = function() {
-        return this.last + ', ' + this.first;
-    };
-    }
-    var s = new Person('Simon', 'Willison');
-    ```
+```javascript
+function Person(first, last) {
+this.first = first;
+this.last = last;
+this.fullName = function() {
+    return this.first + ' ' + this.last;
+};
+this.fullNameReversed = function() {
+    return this.last + ', ' + this.first;
+};
+}
+var s = new Person('Simon', 'Willison');
+```
 
-    `object.prototype.function`으로 object에 아무때나 function을 추가해 줄 수 있다. 이는 String등의 이미 기본으로 있는 객체에 함수를 추가해 줄 때 유용하다.
+`object.prototype.function`으로 object에 아무때나 function을 추가해 줄 수 있다. 이는 String등의 이미 기본으로 있는 객체에 함수를 추가해 줄 때 유용하다.
 
-    ```javascript
-    var s = 'Simon';
-    s.reversed(); // TypeError on line 1: s.reversed is not a function
+```javascript
+var s = 'Simon';
+s.reversed(); // TypeError on line 1: s.reversed is not a function
 
-    String.prototype.reversed = function() {
-    var r = '';
-    for (var i = this.length - 1; i >= 0; i--) {
-        r += this[i];
-    }
-    return r;
-    };
+String.prototype.reversed = function() {
+var r = '';
+for (var i = this.length - 1; i >= 0; i--) {
+    r += this[i];
+}
+return r;
+};
 
-    s.reversed(); // nomiS
-    ```
+s.reversed(); // nomiS
+```
 
 ### Closures
 
-    잘 안쓸것 같은 기능. 이중 함수? 이상한 개념이다.
+잘 안쓸것 같은 기능. 이중 함수? 이상한 개념이다.
 
-    ```javascript
-    function makeAdder(a) {
-    return function(b) {
-        return a + b;
-    };
-    }
-    var add5 = makeAdder(5);
-    var add20 = makeAdder(20);
-    add5(6); // 11
-    add20(7); // 27
-    ```
+```javascript
+function makeAdder(a) {
+return function(b) {
+    return a + b;
+};
+}
+var add5 = makeAdder(5);
+var add20 = makeAdder(20);
+add5(6); // 11
+add20(7); // 27
+```
