@@ -2,6 +2,7 @@
 title: "Javascript 첫 느낌"
 date: 2021-05-18 23:56:00 +0900
 classes: wide
+toc: true
 tags:
     - tech
     - javascript
@@ -170,7 +171,7 @@ Django 개발하면서 자바스크립트로 Ajax도 사용했었지만, 딱히 
 
     s.reversed(); // nomiS
     ```
-    
+
 ### Closures
 
     잘 안쓸것 같은 기능. 이중 함수? 이상한 개념이다.
