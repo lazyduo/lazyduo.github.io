@@ -60,7 +60,27 @@ Django 개발하면서 자바스크립트로 Ajax도 사용했었지만, 딱히 
 
 선언하는 방법에는 `let`, `const`, `var`가 있음.
 
-`let`은 잘 안 쓰이고 웬만하면 `var`로 사용하는 것으로 보임.
+`let`과 `var`의 차이점 : `let`은 블록 내에서만 유효하다.
+
+```javascript
+function varTest() {
+  var x = 1;
+  if (true) {
+    var x = 2;  // 상위 블록과 같은 변수!
+    console.log(x);  // 2
+  }
+  console.log(x);  // 2
+}
+
+function letTest() {
+  let x = 1;
+  if (true) {
+    let x = 2;  // 상위 블록과 다른 변수
+    console.log(x);  // 2
+  }
+  console.log(x);  // 1. 위의 if 문에서의 let이 먹히지 않는다.
+}
+```
 
 ### Operators
 
