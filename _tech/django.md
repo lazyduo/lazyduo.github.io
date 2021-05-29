@@ -47,5 +47,15 @@ Django의 'Model'에서의 하나의 클래스는 하나의 DB Table이다. 나�
 
 Django의 MVT 패턴은 큰 프로젝트에도 적합하고, 수정이 용이한 장점이 있지만, 경험상 `url->view->template`이 엄청 꼬인다. 디버그 할 때 진짜 엄청 헷갈렸다. 예를 들어 url 패턴에 video id를 넣고, 그 url에 포함된 id를 내부 Format로 POST해서 view.py가 로직 처리하게하고 다시 url패턴으로 응답을 주면 url에 맞는 템플릿으로 보여지는 과정이 진짜 진짜 헷갈린다. (포스팅 하면서도 헷갈림)
 
+## New Toy Project : Game Dots
 
+### Login App
+
+Login App은 내장된 auth model의 `User`를 사용한다.
+
+```python
+from django.contrib.auth.models import User
+```
+
+[Link](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication)
 
