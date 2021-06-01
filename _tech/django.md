@@ -59,3 +59,6 @@ from django.contrib.auth.models import User
 
 [Link](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication)
 
+`django-crispy-forms`을 이용하여 깔끔한 형태의 form을 적용.
+
+### Django Rest Framework
