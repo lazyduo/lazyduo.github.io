@@ -64,3 +64,6 @@ from django.contrib.auth.models import User
 ### Django Rest Framework
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/django-react-concept.png){: .align-center}
+
+구축 계획
+: AWS -> (docker) -> Django / Python -> (django REST framework) -> REACT
