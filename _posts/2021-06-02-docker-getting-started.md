@@ -2,6 +2,7 @@
 title: "Docker Getting-Started"
 date: 2021-06-02 23:36:00 +0900
 classes: wide
+toc: true
 tags:
     - tech
     - ETC
@@ -10,9 +11,9 @@ tags:
 
 `Docker` Getting Started!!
 
-## 자주 쓰는 명령어 정리
+## 요약
 
-- 실행
+### 실행
 
     - `-d` - run the container in detached mode (in the background)
     - `-p 80:80` - map port 80 of the host to port 80 in the container
@@ -24,7 +25,7 @@ tags:
     docker run -dp 80:80 docker/getting-started
     ```
 
-- build image
+### build image
 
     - Dockerfile 생성
     
@@ -44,7 +45,7 @@ tags:
 
         'getting-started'라는 tag를 붙여서 현재 경로에 빌드한다.
 
-- 사용 중 / 중지 / 제거
+### 사용 중 / 중지 / 제거
 
     ```
     docker ps
@@ -54,7 +55,7 @@ tags:
 
     docker desktop에서 간단하게 바로 remove 시켜도 됨.
 
-- docker hub
+### docker hub
 
     ```
     docker tag getting-started lazyduo/getting-started
@@ -63,7 +64,7 @@ tags:
 
     tagname default 값은 'latest'
 
-- volume
+### volume
 
     multi container가 DB등의 persist한 값을 참조하기 위한 형태
 
@@ -82,4 +83,4 @@ tags:
         ```
 
 
-bind mount , docker compose는 좀 더 정리가 필요...
+**bind mount , docker compose는 좀 더 정리가 필요...**
