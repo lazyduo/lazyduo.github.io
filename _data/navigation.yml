@@ -28,6 +28,8 @@ tech:
         url: /tech/youtube-api/
       - title: "Django"
         url: /tech/django/
+  - title: "Project Game Dots"
+    url: /tech/gamedots/
   - title: "AI/ML"
     url: /tech/AIML/
     children:
