@@ -18,6 +18,8 @@ My Game Collections! GAME DOTS!
 
 서버 : AWS Elastic Beanstalk
 
+Database : PostgreSQL
+
 Backend : Django
 
 Frontend : React
