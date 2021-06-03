@@ -13,6 +13,7 @@ sidebar:
 Technology, Project 관련 개인 정리 공간입니다.
 
 - [Project LOLHUB](/tech/lolhub/)
+- [Project Game Dots](/tech/gamedots/)
 - [Algorithm](/tech/algorithm/)
 - [AI/ML](/tech/AIML/)
 - [Language](/tech/language/)
