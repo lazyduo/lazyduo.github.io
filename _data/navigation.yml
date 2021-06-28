@@ -54,7 +54,9 @@ tech:
       - title: "Docker"
         url: /tech/docker/
       - title: "Crypto"
-        url: /tech/crypto/  
+        url: /tech/crypto/
+      - title: "D3"
+        url: /tech/d3/    
       - title: "Posts"
         url: /tech/ETC_Posts/
 
