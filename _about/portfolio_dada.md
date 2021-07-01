@@ -27,7 +27,15 @@ author_profile: true
 
 - [Project LOLHUB](https://lazyduo.github.io/tech/lolhub/) : Thumbnail Generator, Youtube API, Django 등
 
-- [Thumbnail Gallery](https://lazyduo.github.io/thumbnail-gallery/)
+- [Project Game DOTS](https://lazyduo.github.io/tech/gamedots/) : Django CRUD, DOCKER, AWS 연계 중
+
+- [Algorithm STUDY](https://lazyduo.github.io/tech/algorithm/) : 삼성 SW 자격 시험 준비 및 알고리즘 학습
+
+- [AI/ML STUDY w/ TensorFlow](https://lazyduo.github.io/tech/tensorflow/) : TensorFlow를 통한 머신러닝 기본 학습
+
+- [ETC Project](https://lazyduo.github.io/tech/ETC/) : 맨 땅에 헤딩한 흔적들
+
+- [Thumbnail Gallery](https://lazyduo.github.io/thumbnail-gallery/) : 유튜브 채널 운영 경험
 
 ## Tech Stack
 
