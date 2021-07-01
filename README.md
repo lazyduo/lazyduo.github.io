@@ -51,4 +51,6 @@ Git 한 줄 commit 도움 [글](https://blog.ull.im/engineering/2019/03/10/logs-
 
     pyinstaller --onefile macro.py --hidden-import pywintypes
     
+google 'color picker' 색 선택에 도움이 됨.
+    
 to be continued...
