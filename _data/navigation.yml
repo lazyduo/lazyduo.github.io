@@ -46,7 +46,7 @@ tech:
         url: /tech/HTMLCSSJS/
   - title: "Algorithm"
     url: /tech/algorithm/
-  - title: "ETC"
+  - title: "ETC Project"
     url: /tech/ETC/
     children:
       - title: "GitHub Pages"
