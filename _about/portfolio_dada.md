@@ -33,7 +33,7 @@ author_profile: true
 
 - [AI/ML STUDY w/ TensorFlow](https://lazyduo.github.io/tech/tensorflow/) : TensorFlow를 통한 머신러닝 기본 학습
 
-- [ETC Project](https://lazyduo.github.io/tech/ETC/) : 맨 땅에 헤딩한 흔적들
+- [ETC Project](https://lazyduo.github.io/tech/ETC/) : 맨땅에 헤딩한 흔적들
 
 - [Thumbnail Gallery](https://lazyduo.github.io/thumbnail-gallery/) : 유튜브 채널 운영 경험
 
