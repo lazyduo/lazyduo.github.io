@@ -7,4 +7,4 @@ author_profile: false
 sidebar:
     nav: "tech"
 ---
-잡다한 공간.
+맨땅에 헤딩한 흔적들...
