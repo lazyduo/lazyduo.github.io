@@ -94,7 +94,6 @@ if __name__ == '__main__':
 - index.html
 
 ```html
-<!DOCTYPE html>
 <html>
     <head>
 
