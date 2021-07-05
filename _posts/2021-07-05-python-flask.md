@@ -65,6 +65,34 @@ if __name__ == '__main__':
 
 `@app.route`에서 'index.html'과 같은 html을 rendering 할 수 있도록 해 봅니다. 우선 html 파일은 폴더 내에 `templates` 폴더를 만들고 해당 경로에 추가합니다. 이는 약속이므로 반드시 'templates'라는 이름의 폴더를 추가해 주어야 합니다.
 
+그리고, html을 렌더링 하기 위해서는 'app.py'에서도 약간의 변화를 주어야 합니다. 여기서는 `render_template` 내장 함수를 사용합니다. 변수에 렌더링 할 html 파일 명과, 추가하고 싶은 변수들을 넣어주면 됩니다.
+
+`return render_template('index.html', name='dada', context=context)`에서와 같이 'name='dada''처럼 변수를 지정해서 넣어 줄 수 도 있고, context 처럼 dictionary 형태로도 넘길 수 있습니다. 이 변수를 활용하는 방법은 하단 'index.html'을 참고하면 쉽게 알 수 있습니다.
+
+```python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+@app.route('/home')
+def home():
+    context={
+        'name': 'cera',
+        'id': 1992,
+    }
+    return render_template('index.html', name='dada', context=context)
+
+@app.route('/user/<user_name>/<int:user_id>')
+def user(user_name, user_id):
+    return f'Hello, {user_name}({user_id})!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+- index.html
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -86,3 +114,19 @@ if __name__ == '__main__':
     </body>
 </html>
 ```
+
+- 출력 결과
+<h1>Main</h1>
+<p>dada</p>
+
+    <p>Welcome Dada</p>
+
+<p>context : cera</p>
+<ul>
+
+        <li>name : cera</li>
+
+        <li>id : 1992</li>
+
+</ul>
+
