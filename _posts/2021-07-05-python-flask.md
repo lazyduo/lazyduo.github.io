@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
 - index.html
 
-```html
+```
 <html>
     <head>
 
