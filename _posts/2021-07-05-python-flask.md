@@ -30,15 +30,17 @@ python 웹프레임워크로 'django' 밖에 안써봐서 `flask`도 한 번 써
 
 폴더에 'app.py'를 아래와 같이 생성합니다.
 
-우선 main 실행은 'app.run(debug=True)'으로 app.py를 실행시키면 server를 run 시켜 줍니다. 이 때, 'debug=True' 옵션은 'app.py'가 수정이 일어날 때 바로바로 반영 시켜서 보여주게끔 합니다. 테스트 용으로는 웬만해서는 'debug=True' 해주면 될 것 같습니다.
+우선 main 실행은 'app.run(debug=True)'으로 app.py를 실행시키면 server를 run 시켜 줍니다. 이 때, 'debug=True' 옵션은 'app.py'가 수정이 일어날 때 바로바로 반영 시켜서 보여주게끔 합니다. 테스트 용으로는 웬만해서는 'debug=True' 해주면 될 것 같습니다. django에서 manage.py가 전체적인 서버 런을 담당하는 것과 비교해서 간편해 보입니다.
 
 `@app.route('/')`는 Flask class에서 준비된 함수가 트리거 되어 URL을 rendering 할 수 있도록 하는 decorator이다.
 
-아래와 같이 기본 url에서 'Hello World'를 출력할 수 있게 끔 한다. 이 때 반드시 '/'로 시작해야하는 것을 주의 하자.
+아래와 같이 기본 url에서 'Hello World'를 출력할 수 있게 끔 한다. 이 때 반드시 '/'로 시작해야하는 것을 주의 합니다.
 
-url로 부터 변수를 사용하고 싶으면 아래 쪽의 `@app.route('/user/<user_name>/<int:user_id>')` 예시 처럼 사용하면 된다.
+url로 부터 변수를 사용하고 싶으면 아래 쪽의 `@app.route('/user/<user_name>/<int:user_id>')` 예시 처럼 사용하면 됩니
 
-'/user/dada/30'에서 'Hello, dada(30)!'을 출력할 것이다.
+이제 `python app.py`로 서버를 실행 시키고 해당 주소로 들어가면, '/user/dada/30'에서 'Hello, dada(30)!'을 출력할 것입니다.
+
+**Running on http://127.0.0.1:5000/**!!
 
 - app.py
 
@@ -60,3 +62,27 @@ if __name__ == '__main__':
 ```
 
 ## templates
+
+`@app.route`에서 'index.html'과 같은 html을 rendering 할 수 있도록 해 봅니다. 우선 html 파일은 폴더 내에 `templates` 폴더를 만들고 해당 경로에 추가합니다. 이는 약속이므로 반드시 'templates'라는 이름의 폴더를 추가해 주어야 합니다.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Main</h1>
+        <p>{{ name }}</p>
+        {% if name == 'dada' %}
+            <p>Welcome Dada</p>
+        {% endif %}
+        <p>context : {{ context.name }}</p>
+        <ul>
+            {% for key, value in context.items() %}
+                <li>{{ key }} : {{ value }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+```
