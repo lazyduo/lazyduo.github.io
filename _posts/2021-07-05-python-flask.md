@@ -91,7 +91,11 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-- index.html
+- templates/index.html
+
+```html
+<p> hi</p>
+```
 
 
 - 출력 결과
