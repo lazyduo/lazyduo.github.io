@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 그리고, html을 렌더링 하기 위해서는 'app.py'에서도 약간의 변화를 주어야 합니다. 여기서는 `render_template` 내장 함수를 사용합니다. 변수에 렌더링 할 html 파일 명과, 추가하고 싶은 변수들을 넣어주면 됩니다.
 
-`return render_template('index.html', name='dada', context=context)`에서와 같이 'name='dada''처럼 변수를 지정해서 넣어 줄 수 도 있고, context 처럼 dictionary 형태로도 넘길 수 있습니다. 이 변수를 활용하는 방법은 하단 'index.html'을 참고하면 쉽게 알 수 있습니다.
+`return render_template('index.html', name='dada', context=context)`에서와 같이 'name='dada''처럼 변수를 지정해서 넣어 줄 수 도 있고, context 처럼 dictionary 형태로도 넘길 수 있습니다. 이 변수를 활용하는 방법은 하단 'templates/index.html'을 참고하면 쉽게 알 수 있습니다.
 
 ```python
 from flask import Flask, render_template
@@ -93,6 +93,7 @@ if __name__ == '__main__':
 
 - templates/index.html
 
+{% raw %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -107,14 +108,14 @@ if __name__ == '__main__':
         {% endif %}
         <p>context : {{ context.name }}</p>
         <ul>
-            {% for key, value in context.items() %}
+            #{% for key, value in context.items() %}
                 <li>{{ key }} : {{ value }}</li>
             {% endfor %}
         </ul>
     </body>
 </html>
 ```
-
+{% endraw %}
 
 - 출력 결과
 
