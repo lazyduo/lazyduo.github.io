@@ -93,18 +93,7 @@ if __name__ == '__main__':
 
 - index.html
 
-```jinja2
-<p>{{ name }}</p>
-{% if name == 'dada' %}
-    <p>Welcome Dada</p>
-{% endif %}
-<p>context : {{ context.name }}</p>
-<ul>
-    {% for key, value in context.items() %}
-        <li>{{ key }} : {{ value }}</li>
-    {% endfor %}
-</ul>
-```
+
 
 - 출력 결과
 
