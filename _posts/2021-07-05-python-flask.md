@@ -108,7 +108,7 @@ if __name__ == '__main__':
         {% endif %}
         <p>context : {{ context.name }}</p>
         <ul>
-            #{% for key, value in context.items() %}
+            {% for key, value in context.items() %}
                 <li>{{ key }} : {{ value }}</li>
             {% endfor %}
         </ul>
