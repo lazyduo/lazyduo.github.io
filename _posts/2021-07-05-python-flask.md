@@ -36,7 +36,7 @@ python 웹프레임워크로 'django' 밖에 안써봐서 `flask`도 한 번 써
 
 아래와 같이 기본 url에서 'Hello World'를 출력할 수 있게 끔 한다. 이 때 반드시 '/'로 시작해야하는 것을 주의 합니다.
 
-url로 부터 변수를 사용하고 싶으면 아래 쪽의 `@app.route('/user/<user_name>/<int:user_id>')` 예시 처럼 사용하면 됩니
+url로 부터 변수를 사용하고 싶으면 아래 쪽의 `@app.route('/user/<user_name>/<int:user_id>')` 예시 처럼 사용하면 됩니다.
 
 이제 `python app.py`로 서버를 실행 시키고 해당 주소로 들어가면, '/user/dada/30'에서 'Hello, dada(30)!'을 출력할 것입니다.
 
