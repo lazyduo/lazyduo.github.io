@@ -10,7 +10,7 @@ tags:
     - flask
 ---
 
-python 웹프레임워크로 'django' 밖에 안써봐서 `flask`도 한 번 써보기로 했습니다.
+python 웹 프레임워크로 'django' 밖에 안써봐서 `flask`도 한 번 써보기로 했습니다.
 
 `flask`는 'django'에 비해 가볍고 (단점일수도), 쉽게 시작할 수 있는 장점이 있습니다.
 
@@ -93,20 +93,43 @@ if __name__ == '__main__':
 
 - index.html
 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
 
+    </head>
+    <body>
+        <h1>Main</h1>
+        <p>{{ name }}</p>
+        {% if name == 'dada' %}
+            <p>Welcome Dada</p>
+        {% endif %}
+        <p>context : {{ context.name }}</p>
+        <ul>
+            {% for key, value in context.items() %}
+                <li>{{ key }} : {{ value }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+```
 
 - 출력 결과
-<h1>Main</h1>
-<p>dada</p>
 
-    <p>Welcome Dada</p>
+<div>
+    <h1>Main</h1>
+    <p>dada</p>
 
-<p>context : cera</p>
-<ul>
+        <p>Welcome Dada</p>
 
-        <li>name : cera</li>
+    <p>context : cera</p>
+    <ul>
 
-        <li>id : 1992</li>
+            <li>name : cera</li>
 
-</ul>
+            <li>id : 1992</li>
+
+    </ul>
+</div>
 
