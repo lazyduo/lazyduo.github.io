@@ -64,3 +64,32 @@ post = get_db().execute(
         (id,)
     ).fetchone()
 ```
+
+## redirect, url_for
+
+flask에서 간편하게 `url_for()`를 사용하여 '이름'으로 url을 리턴하는데, 'auth.py'에 있는 login view는 아래처럼 표현한다.
+
+```python
+if request.method == 'POST':
+    ...
+
+    return redirect(url_for('auth.login'))
+```
+
+## login required
+
+이 부분은 그냥 외워야 할 것 같다...
+
+```python
+import functools
+
+def login_required(view):
+    @functools.wraps(view)
+    def wrapped_view(**kwargs):
+        if g.user is None:
+            return redirect(url_for('auth.login'))
+        
+        return view(**kwargs)
+    
+    return wrapped_view
+```
