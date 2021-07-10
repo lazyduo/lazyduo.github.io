@@ -35,3 +35,20 @@ def create_app():
 
     return app
 ```
+
+## handling DB
+
+'Flask'에서는 기본적으로 python 내장 DB인 `sqlite3`를 사용할 수 있다. DB 다루기가 익숙치 않아 명령어들을 몇 개 메모해두었다.
+
+db의 'user' Table로 부터 찾고자 하는 username의 row를 한 개(`fetchone()`) 가져오기. 아래돠 같이 '?'를 사용하여 변수를 넣어 줄 수 있다.
+
+```python
+username = 'dada'
+user = db.execute(
+    'SELECT id FROM user WHERE username = ?', (username,)
+).fetchone()
+
+if user is not None:
+    ...
+
+```
