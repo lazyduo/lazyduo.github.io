@@ -44,11 +44,23 @@ db의 'user' Table로 부터 찾고자 하는 username의 row를 한 개(`fetcho
 
 ```python
 username = 'dada'
-user = db.execute(
+user _id= db.execute(
     'SELECT id FROM user WHERE username = ?', (username,)
 ).fetchone()
 
-if user is not None:
+if user_id is not None:
     ...
+    # omitted
 
+```
+
+JOIN 사용하기
+
+```python
+post = get_db().execute(
+        'SELECT p.id, title, body, created, author_id, username'
+        ' FROM post p JOIN user u ON p.author_id = u.id'
+        ' WHERE p.id = ?'
+        (id,)
+    ).fetchone()
 ```
