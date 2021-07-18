@@ -33,3 +33,5 @@ tags:
 React test 용 Github Repository 주소 입니다.
 
 [link](https://github.com/lazyduo/yumi-react-test)
+
+[lecture](https://www.youtube.com/watch?v=Dorf8i6lCuk)
