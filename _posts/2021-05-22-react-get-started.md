@@ -35,3 +35,36 @@ React test 용 Github Repository 주소 입니다.
 [link](https://github.com/lazyduo/yumi-react-test)
 
 [lecture](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+
+### useState
+
+`useState`를 사용한 react state 관리 예시.
+
+```js
+import { useState } from 'react';
+
+function Todo(props) {
+    const [ modalIsOpen, setModalIsOpen ] = useState(false);
+
+
+    function deleteHandler() {
+        setModalIsOpen(true);
+    }
+
+    function closeModalHandler() {
+        setModalIsOpen(false);
+    }
+
+    return (
+        <div className='card'>
+            <h2>{props.text}</h2>
+            <div className='actions'>
+                <button className='btn' onClick={deleteHandler}>Delete</button>
+            </div>
+            {/* { modalIsOpen ? <Modal /> : null } */}
+            { modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler}/> }
+            { modalIsOpen && <Backdrop onCancel={closeModalHandler}/> }
+        </div>
+    );
+}
+```
