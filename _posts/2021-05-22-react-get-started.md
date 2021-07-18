@@ -25,3 +25,11 @@ tags:
 ## How Browsers Work
 
 [link](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+
+## Project YUMI
+
+또 지인과 프로젝트 시작했습니다. 근데 `Frontend`를 둘다 너무 몰라서 `Backend` 구축해놓고 `React` 공부 중입니다...
+
+React test 용 Github Repository 주소 입니다.
+
+[link](https://github.com/lazyduo/yumi-react-test)
