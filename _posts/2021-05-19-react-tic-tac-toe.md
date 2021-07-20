@@ -5,7 +5,7 @@ classes: wide
 toc: true
 tags:
     - tech
-    - React
+    - react
     - web design
 ---
 
