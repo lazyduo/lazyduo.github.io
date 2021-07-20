@@ -4,7 +4,7 @@ date: 2021-07-20 09:49:00 +0900
 classes: wide
 tags:
     - tech
-    - React
+    - react
     - axios
     - web design
 ---
