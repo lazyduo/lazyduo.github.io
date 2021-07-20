@@ -32,6 +32,8 @@ tech:
         url: /tech/django/
   - title: "Project Game Dots"
     url: /tech/gamedots/
+  - title: "Project YUMI"
+    url: /tech/yumi/
   - title: "AI/ML"
     url: /tech/AIML/
     children:
@@ -46,6 +48,8 @@ tech:
         url: /tech/cpp/
       - title: "HTML/CSS/JS"
         url: /tech/HTMLCSSJS/
+      - title: "React"
+        url: /tech/react/
   - title: "Algorithm"
     url: /tech/algorithm/
   - title: "ETC Project"
