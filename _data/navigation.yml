@@ -3,11 +3,13 @@ main:
   - title: "Tech"
     url: /tech/
     # url: /docs/quick-start-guide/
-  - title: "Translation"
-    url: /translate/
+    
+# 21-07-20 screening temporary
+#   - title: "Translation"
+#     url: /translate/
 
-  - title: "Daily"
-    url: /daily/
+#   - title: "Daily"
+#     url: /daily/
 
   - title: "Posts"
     url: /post/
