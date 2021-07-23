@@ -1,8 +1,10 @@
 ---
 title: "웹 브라우저 스크린샷 feat. Chrome"
 date: 2021-07-23 17:43:28 -0400
-tags: -etc
-categories: diary
+classes: wide
+tags:
+    - ETC
+    - ETC_Posts
 ---
 진짜 그냥 너무 꿀팁인거 같아서 메모..
 
