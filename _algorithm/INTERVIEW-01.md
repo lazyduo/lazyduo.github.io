@@ -236,4 +236,37 @@ Binary Search 코드 형태를 외우고 있는게 아니라서 시간이 좀 �
   Total number of Tetris pieces : 7 (when block size = 4)
 ```
 
+### 세번째
+
+그래도 잘 했다고 말해주셨지만, 마찬가지로 뭔가 찜찜한게 남았던 코딩 문제.
+
+절대 경로 혹은 상대경로를 받아서 경로를 정리하기.
+
+ex) 'a/b/../c' -> 'a/c', 'a/b//./c' -> 'a/b/c'
+
+이 문제는 나 스스로가 입력값에 대한 출력값이 정확히 뭔지 잘 모르겠다는게 가장 큰 문제였다.
+
+결과가 어떻게 나와야 맞는건지에 대한 확신이 없으니, 당연히 조건 처리를 잘 못할 수 밖에 없었다.
+
+특히 맨 첫번째에서 '..'이 일어날 때 상대경로와 절대경로에서의 처리가 달라서 헤맸다.
+
+(사실 아직도 조금 이해가 안되고 헷갈린다)
+
+'./d'의 출력값은?... 'd', '/./d' -> '/d', '/../d' -> '/d', '../d' -> '../d' ????????
+
+### 네번째
+
+코딩테스트 없이 fundamental 개념 질문 만으로 인터뷰 진행하셨다.
+
+내가 얼마나 기초가 없는 사람인가 뼈저리게 느꼈다.
+
+1. static vs dynamic allocation : stack 메모리와 heap 메모리에 대한 설명을 잘 했더라면... 횡설수설 했다. [link](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)
+2. Sort 알고리즘 설명과 각 알고리즘의 시간 복잡도 : 뭐든 정확하게 좀 알자...
+3. Binary Tree의 traversal
+4. Linked List 의 순서상 가운데 값 찾기 : 포인터 두 개를 이용하는 방법!
+5. Stack의 Max 값 추가 메모리 없이 O(1) 으로 구하기 : push, pop일 때 트릭을 줘서 해결 한다. push 할 때 Max 보다 클 경우 (2\*x - Max), pop 할 때 Max 보다 클 경우 (2\*Max - y), 원래 push한 값은 Max로 반환해야한다. 솔직히 한 번도 보지 못했던거라면 생각해내기에 너무나 힘든 문제다. [link](https://www.geeksforgeeks.org/find-maximum-in-a-stack-in-o1-time-and-o1-extra-space/)
+
+## 정리
+
+잘 하자... 그리고 제발 대충 알지 말고 하나라도 제대로 알고 넘어가자.
 
