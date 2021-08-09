@@ -4,6 +4,7 @@ date: 2021-07-20 13:46:00 +0900
 classes: wide
 tags:
     - tech
+    - yumi
     - react
     - memo
     - web design
