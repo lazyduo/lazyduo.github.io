@@ -63,6 +63,8 @@ tech:
         url: /tech/crypto/
       - title: "D3"
         url: /tech/d3/    
+      - title: "Computer Architecture"
+        url: /tech/computer-architecture/
       - title: "Posts"
         url: /tech/ETC_Posts/
 
