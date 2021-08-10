@@ -39,4 +39,10 @@ $header-item-color: #555b6d;
 
 (header 관련된 변수들을 설정한 모습)
 
-## Bootstrap?
+## Bootstrap
+
+FE Engineer가 아니더라도 한 번 쯤 들어봤을 법한, `Bootstrap`. Bootstrap은 responsive, mobile-first 사이트를 만들기 위한 가장 유명한 'CSS Framework'이다. 트위터 개발자들이 만들었고, 오픈소스로 많은 개발자들이 기여하며 지금의 부트스트랩이 탄생했다. 웹 사이트 제작에 필요한 여러 Layout, Content, Forms, Componenets 등을 제공하여, 개발자들이 따로 기능들을 만들지 않고 부트스트랩에서 이미 잘 정형화 되어 있는 feature 들을 가져와서 쉽고 빠르게 개발 가능하다.
+
+웹사이트에서 비슷비슷하게 보이는 버튼들, Dropdown, 사이드바 이런 것들 전부 Bootstrap의 도움을 받았다고 보면 된다.
+
+`YUMI Project`에서도 bootstrap을 customize하여 사용하고 있다.
