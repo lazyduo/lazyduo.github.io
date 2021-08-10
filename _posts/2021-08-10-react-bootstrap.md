@@ -46,3 +46,63 @@ FE Engineer가 아니더라도 한 번 쯤 들어봤을 법한, `Bootstrap`. Boo
 웹사이트에서 비슷비슷하게 보이는 버튼들, Dropdown, 사이드바 이런 것들 전부 Bootstrap의 도움을 받았다고 보면 된다.
 
 `YUMI Project`에서도 bootstrap을 customize하여 사용하고 있다.
+
+```js
+<div className="page-title-box d-flex align-items-center justify-content-between">
+```
+
+bootstrap의 class를 이용하여 diplay: flex, align-items: center, justify-content: space-between 을 적용한 모습.
+(react에서는 class를 적용할 때 'className'으로 적용하는 것을 주의하자)
+
+# Reactstrap !
+
+이제 `React`에서 `Bootstrap`을 쉽게 사용해 보자. `reactstrap`은 React의 컴포넌트 개념을 살려서 Bootstrap의 feature들을 사용한다고 보면 된다.
+
+예를 들어, 'Dropdowns' 같은 경우, 기존의 Bootstrap에서는 아래와 같이 class에 bootstrap class들을 추가하여 dropdown, dropdown-menu, dropdown-item을 관리하는 것을 볼 수 있는데, reactstrap에서는 각각을 Component 형태로 불러와서 사용함을 알 수 있다.
+
+- Bootstrap
+```html
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+```
+
+- Reactstrap
+
+```react
+import React, { useState } from 'react';
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+
+const Example = (props) => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen(prevState => !prevState);
+
+  return (
+    <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+      <DropdownToggle caret>
+        Dropdown
+      </DropdownToggle>
+      <DropdownMenu>
+        <DropdownItem header>Header</DropdownItem>
+        <DropdownItem>Some Action</DropdownItem>
+        <DropdownItem text>Dropdown Item Text</DropdownItem>
+        <DropdownItem disabled>Action (disabled)</DropdownItem>
+        <DropdownItem divider />
+        <DropdownItem>Foo Action</DropdownItem>
+        <DropdownItem>Bar Action</DropdownItem>
+        <DropdownItem>Quo Action</DropdownItem>
+      </DropdownMenu>
+    </Dropdown>
+  );
+}
+
+export default Example;
+```
