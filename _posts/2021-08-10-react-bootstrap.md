@@ -61,6 +61,7 @@ bootstrap의 class를 이용하여 diplay: flex, align-items: center, justify-co
 예를 들어, 'Dropdowns' 같은 경우, 기존의 Bootstrap에서는 아래와 같이 class에 bootstrap class들을 추가하여 dropdown, dropdown-menu, dropdown-item을 관리하는 것을 볼 수 있는데, reactstrap에서는 각각을 Component 형태로 불러와서 사용함을 알 수 있다.
 
 - Bootstrap
+{% raw %}
 ```html
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -73,6 +74,7 @@ bootstrap의 class를 이용하여 diplay: flex, align-items: center, justify-co
   </ul>
 </div>
 ```
+{% endraw %}
 
 - Reactstrap
 
