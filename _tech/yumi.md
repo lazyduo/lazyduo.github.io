@@ -29,3 +29,7 @@ Frontend : React
 ## Role
 
 일단은 **[upoque](https://github.com/upoque)** 가 개발환경 구축해놓고, 나는 어느정도 백엔드-프론트 엔드 구분 없이 두루두루(?이도 저도 안되는 나쁜의미일수도ㅠ) 알고 있으니 풀스택으로 작업 중.
+
+## Status
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
