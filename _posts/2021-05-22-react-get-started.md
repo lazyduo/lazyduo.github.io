@@ -4,7 +4,7 @@ date: 2021-05-22 00:29:00 +0900
 classes: wide
 tags:
     - tech
-    - React
+    - react
     - web design
 ---
 

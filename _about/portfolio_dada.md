@@ -30,6 +30,8 @@ author_profile: true
 
 - [Project LOLHUB](https://lazyduo.github.io/tech/lolhub/) : Thumbnail Generator, Youtube API, Django 등
 
+- [Project YUMI](https://lazyduo.github.io/tech/yumi/) : Django REST Framework, React
+
 - [Project Game DOTS](https://lazyduo.github.io/tech/gamedots/) : Django CRUD, DOCKER, AWS 연계 중
 
 - [Algorithm STUDY](https://lazyduo.github.io/tech/algorithm/) : 삼성 SW 자격 시험 준비 및 알고리즘 학습
@@ -95,41 +97,3 @@ Connecting the Dots. 스티브 잡스가 했던 이 문구가 영향을 줘서 �
 - 20년도 초가을부터 이대로는 안 되겠다 싶어 갑자기 python을 배웠습니다. 코드아카데미로 기본 문법 배우고, 프로그래머스에서 문제 조금씩 풀어 봤습니다.
 
 - 20년도 9월 친구와 python project를 시작으로, 2020년 12월 SW개발그룹으로 업무 변경에 이어 단기간 삼성 SW 검정 Advanced 등급 취득으로 현재도 계속 개발자로서 커리어를 쌓기 위해 노력 중입니다.
-
-<br>
-
-읽어 주셔서 감사합니다.
-
-<!-- ```python
-from universe import human
-import datetime
-
-class Dada:
-  def __init__(self, **kwargs):
-    self.name, self.year, self.sex = human.birth('Dada Ahn', 1992, 'M')
-    self.weight = 4.2 # kg
-    self.place = 'Seoul, Korea'
-    self.talent = kwargs.get('DNAfromParent', None)
-    self.skill = ['cry']
-    return
-    
-  def aging(self, year): 
-    age = time.year - self.year
-    
-    if age < 8 :
-      print('Just Child..')
-      return
-    elif age < 20 :
-      self.learn('chemistry')
-      
-      
-    
-
-
-if __name__ == '__main__':
-  dada = Dada()
-  time = datetime.datetime.now()
-  while (1):
-    dada.aging(time.year)
-
-``` -->

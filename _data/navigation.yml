@@ -3,11 +3,13 @@ main:
   - title: "Tech"
     url: /tech/
     # url: /docs/quick-start-guide/
-  - title: "Translation"
-    url: /translate/
+    
+# 21-07-20 screening temporary
+#   - title: "Translation"
+#     url: /translate/
 
-  - title: "Daily"
-    url: /daily/
+#   - title: "Daily"
+#     url: /daily/
 
   - title: "Posts"
     url: /post/
@@ -30,6 +32,8 @@ tech:
         url: /tech/django/
   - title: "Project Game Dots"
     url: /tech/gamedots/
+  - title: "Project YUMI"
+    url: /tech/yumi/
   - title: "AI/ML"
     url: /tech/AIML/
     children:
@@ -44,6 +48,8 @@ tech:
         url: /tech/cpp/
       - title: "HTML/CSS/JS"
         url: /tech/HTMLCSSJS/
+      - title: "React"
+        url: /tech/react/
   - title: "Algorithm"
     url: /tech/algorithm/
   - title: "ETC Project"
@@ -57,30 +63,33 @@ tech:
         url: /tech/crypto/
       - title: "D3"
         url: /tech/d3/    
+      - title: "Computer Architecture"
+        url: /tech/computer-architecture/
       - title: "Posts"
         url: /tech/ETC_Posts/
 
-# translate sidebar
-translate:
-  - title: "Dragon Age"
-    children:
-      - title: "Inquisition"
+# # 21-07-20 screening temporary
+# # translate sidebar
+# translate:
+#   - title: "Dragon Age"
+#     children:
+#       - title: "Inquisition"
 
-      - title: "Team Waldo"
+#       - title: "Team Waldo"
 
-# daily sidebar
-daily:
-  - title: "Games"
-    url: /daily/games/
-    children:
-      - title: "Play Station 4"
-        url: /daily/games/playstation4/
-      - title: "Nintendo Switch"
-        url: /daily/games/NSwitch/
-      - title: "XBox"
-        url: /daily/games/xbox/
-  - title: "About everything"
-    url: /daily/about_everything/
+# # daily sidebar
+# daily:
+#   - title: "Games"
+#     url: /daily/games/
+#     children:
+#       - title: "Play Station 4"
+#         url: /daily/games/playstation4/
+#       - title: "Nintendo Switch"
+#         url: /daily/games/NSwitch/
+#       - title: "XBox"
+#         url: /daily/games/xbox/
+#   - title: "About everything"
+#     url: /daily/about_everything/
 
 # about sidebar
 about:
