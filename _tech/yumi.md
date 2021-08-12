@@ -32,4 +32,6 @@ Frontend : React
 
 ## Status
 
+21.08.12 TODO : navbar가 responsive하게 줄어들지 않는 부분, Button design.
+
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
