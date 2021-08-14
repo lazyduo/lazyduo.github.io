@@ -54,5 +54,8 @@ Git 한 줄 commit 도움 [글](https://blog.ull.im/engineering/2019/03/10/logs-
 google 'color picker' 색 선택에 도움이 됨.
 
 template language {% %} {{ }}가 github pages의 code block에서 먹히지 않고 build error 메세지가 계속 날라 올 경우 {% raw %} {% endraw %}로 감싸주면 된다.
-    
+
+2021-Aug-14
+Git token test
+
 to be continued...
