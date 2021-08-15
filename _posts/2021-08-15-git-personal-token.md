@@ -15,6 +15,6 @@ tags:
 
 1. Personal Access Tokens 만들기 : Github \> Settings \> Developer settings \> Personal acess tokens
 
-2. Git Credential Manager Core 설치 : [Linux] (https://github.com/microsoft/Git-Credential-Manager-Core#linux-install-instructions)
+2. Git Credential Manager Core 설치 : [Linux](https://github.com/microsoft/Git-Credential-Manager-Core#linux-install-instructions)
 
 3. git config --global credential.credentialStore plaintext : Personal acess token 선택하여 '1'에서 만든 token 입력
