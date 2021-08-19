@@ -34,4 +34,6 @@ Frontend : React
 
 21.08.12 TODO : navbar가 responsive하게 줄어들지 않는 부분, Button design.
 
+21.08.18 중간점검 : template 디자인 적용, 퀘스트 수락 관련 기능 추가, 친구 기능 추가. 9/30 까지 web 버전 완성 필요. 11/30 까지 모바일 앱 목표. 화이팅.
+
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
