@@ -36,4 +36,6 @@ Frontend : React
 
 21.08.18 중간점검 : template 디자인 적용, 퀘스트 수락 관련 기능 추가, 친구 기능 추가. 9/30 까지 web 버전 완성 필요. 11/30 까지 모바일 앱 목표. 화이팅.
 
+21.08.30 Shop 까지의 기능은 Web에서 구현 완료. 슬슬 React Native로 모바일 앱 준비 시작.
+
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
