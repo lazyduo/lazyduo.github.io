@@ -42,3 +42,11 @@ const styles = StyleSheet.create({
 });
 ```
 
+## Dimensions & Orientation
+
+모바일 Device에 따라서 크기 조절하는 방법들. (orientation 을 portrait만 쓸거면 3, 4는 굳이 쓸 일 없음)
+
+1. `<View>` 컴포넌트의 width에 px이 아닌 그냥 숫자를 넣으면, 'point' 개념으로 들어 간다. 이 때 "50%" 이런식으로도 넣을 수 있음. 참고로 point * scale 을 하면 pixel이 나옴.
+2. Dimensions api 활용. screen과 window가 있는데, Android에서만 window가 약간 작은 크기다. screen으로 쓰는 걸 추천.
+3. 'useDimensions` Hook 사용하기 (@react-native-community/hooks). 그냥 Dimensions를 쓰면 가로 / 세로 돌릴 때 값이 update가 안되는데, 이를 위해 이 Hook을 쓴다.
+4. 'useDeviceOrientation' 모바일 환경이 가로 모드(landscape)인지 세로 모드(portrait)인지 이런 state를 Hook으로 관리하기 위함.
