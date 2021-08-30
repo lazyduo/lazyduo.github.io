@@ -21,7 +21,9 @@ React Native는, iOS와 Android 각각에 앱을 만들 필요 없이, 하나의
 
 여기서는 공부하는 과정에서 도움이 될 것 같아 메모하는 느낌으로 작성합니다.
 
-유튜브 튜토리얼 참고 [Link](https://www.youtube.com/watch?v=0-S5a0eXPoc)
+유튜브 튜토리얼 참고 [Link](https://www.youtube.com/watch?v=0-S5a0eXPoc) : 정말 기본만 알려준다. Server 관련된건 일절 없음.
+
+더 자세한 유튜브 [Link](https://www.youtube.com/watch?v=qSRrxpdMpVc)
 
 ## Android, iOS 호환 문제
 
