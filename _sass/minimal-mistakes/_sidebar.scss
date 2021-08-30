@@ -7,8 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-  background-color: black,
-  color: white,
+  background-color: black;
+  color: white;
   
   @include clearfix();
   // @include breakpoint(max-width $large) {
