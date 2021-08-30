@@ -7,6 +7,9 @@
    ========================================================================== */
 
 .sidebar {
+  background-color: black,
+  color: white,
+  
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
