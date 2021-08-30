@@ -50,3 +50,9 @@ const styles = StyleSheet.create({
 2. Dimensions api 활용. screen과 window가 있는데, Android에서만 window가 약간 작은 크기다. screen으로 쓰는 걸 추천.
 3. 'useDimensions` Hook 사용하기 (@react-native-community/hooks). 그냥 Dimensions를 쓰면 가로 / 세로 돌릴 때 값이 update가 안되는데, 이를 위해 이 Hook을 쓴다.
 4. 'useDeviceOrientation' 모바일 환경이 가로 모드(landscape)인지 세로 모드(portrait)인지 이런 state를 Hook으로 관리하기 위함.
+
+## flexbox
+
+flex를 다루는 것은 css와 거의 같다. style porperty는 다음과 같음 'flex'(grow 숫자로 설정), 'flexDirection', 'justifyContent', 'alignItems': align in line ('alignContent' : entire content), 'flexWrap'
+
+'alignSelf'를 이용하면, flexbox 안의 개개인의 align을 조절 할 수도 있다.
