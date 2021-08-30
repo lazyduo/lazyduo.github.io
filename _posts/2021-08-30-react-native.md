@@ -29,7 +29,7 @@ React Native는, iOS와 Android 각각에 앱을 만들 필요 없이, 하나의
 
 예를 들어 `SafeAreaView` (상단의 시간, 배터리등의 status를 나타내는 영역을 제외한 뷰)에서 안드로이드는 따로 패딩을 줘서 처리해야하는 문제가 있다.
 
-이 때는, Platform 과 StatusBar api를 호출해 아래와 같이 styles를 적용합니다. (1:14:49 Platform-specific code)
+이 때는, `Platform` 과 `StatusBar` api를 호출해 아래와 같이 styles를 적용합니다. (1:14:49 Platform-specific code)
 
 ```react
 const styles = StyleSheet.create({
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     // 이 부분
-    paddingTop: Platform.OS === "andorid" ? StatusBar.currentHeight : 0,
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
 });
 ```
