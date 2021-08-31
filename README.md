@@ -58,4 +58,7 @@ template language {% %} {{ }}가 github pages의 code block에서 먹히지 않�
 2021-Aug-14
 Git token test
 
+2021-Aug-31
+New Laptop!! My first Mac. ([Dev Set Up](https://www.youtube.com/watch?v=tMNOpaQrfAE))
+
 to be continued...
