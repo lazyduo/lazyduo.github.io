@@ -61,4 +61,6 @@ Git token test
 2021-Aug-31
 New Laptop!! My first Mac. ([Dev Set Up](https://www.youtube.com/watch?v=tMNOpaQrfAE))
 
+Setting up my Mac... git push test
+
 to be continued...
