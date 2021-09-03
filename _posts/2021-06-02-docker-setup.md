@@ -6,6 +6,7 @@ tags:
     - tech
     - ETC
     - docker
+    - DevOps
 ---
 
 `Docker`를 처음 써보려고 합니다. 역시나 설치가 만만치 않습니다. 그래도 docker가 가능하게 해줄 것들이 많기 때문에 꾹 참고 잘 설치해봅시다.

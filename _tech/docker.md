@@ -1,11 +1,11 @@
 ---
-title: "Tech > ETC > Docker"
+title: "Tech > ETC > DevOps"
 layout: tag
-taxonomy: docker
-permalink: /tech/docker/
+taxonomy: DevOps
+permalink: /tech/devops/
 classes: wide
 author_profile: false
 sidebar:
     nav: "tech"
 ---
-Docker 관련 정리.
+'DevOps'(?)라고 불러도 될지 모르겠는데.. 큰 의미로는 맞지 않을까?

@@ -6,6 +6,7 @@ tags:
     - tech
     - ETC
     - docker
+    - DevOps
 ---
 
 Django + PostgreSQL 프로젝트를 `dockerlize` 시키기 위한 여정...

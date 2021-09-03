@@ -7,6 +7,7 @@ tags:
     - ETC
     - docker
     - aws
+    - DevOps
 ---
 
 `Docker Compose` 된 Django + Postgres 프로젝트를 AWS의 `Elastic Beanstalk`로 배포하는 여정...
