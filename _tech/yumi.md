@@ -38,4 +38,6 @@ Frontend : React
 
 21.08.30 Shop 까지의 기능은 Web에서 구현 완료. 슬슬 React Native로 모바일 앱 준비 시작.
 
+21.09.04 Server AWS EC2로 이전. domain 구입 및 적용.
+
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
