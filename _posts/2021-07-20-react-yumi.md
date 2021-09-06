@@ -27,3 +27,7 @@ React Hook 중 하나인, `useRef`를 이용해서 Form을 만든다.
 그 후, 'input' 태그에 `ref`라는 props를 추가해주고, 이 값은 `useRef()`와 연동한다.
 
 이렇게 하면 현재의 input 값을 `titleInputRef.current.value` 형태로 받아올 수 있다.
+
+## Redux
+
+## Saga
