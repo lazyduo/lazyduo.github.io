@@ -31,7 +31,11 @@ tags:
 
 ## Code Reference
 
-1. Recursive
+[source](https://github.com/lazyduo/algorithms-python/blob/main/search/binary_search.py)
+
+두 가지 방법이 있다. recursive 는 함수의 콜백으로 stack overflow 문제가 있을 수 있으니 되도록이면 지양하자. iterative 하게 하도록 노력!
+
+- Recursive
 
 ```python
 def binarySearch_recur (arr, start, end, x):
@@ -51,7 +55,7 @@ def binarySearch_recur (arr, start, end, x):
         return -1
 ```
 
-2. Iterative
+- Iterative
 
 ```python
 def binarySearch_iter(arr, start, end, x):
@@ -86,3 +90,7 @@ mid = start + (end - start) // 2
 바로 start + end 값이 너무 커져 버리면 (ex 4바이트 int의 최대 값인 2^31 - 1) 음수를 반환 할 수 있기 때문이다.
 
 python은 알아서 어느 정도 자동으로 타입을 맞춰 주긴 하지만, 타입이 있는 언어를 사용할 경우 주의가 필요하겠다.
+
+## 참고
+
+geeksforgeeks.org/binary-search/
