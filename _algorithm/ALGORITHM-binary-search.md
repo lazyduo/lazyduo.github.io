@@ -20,7 +20,7 @@ tags:
 
 우선 '탐색(Search)'은 주어진 배열(array)에서 특정 원소(element)의 위치를 찾는 알고리즘이라고 정의할 수 있고, 가장 기초적인 접근 법은 모든 배열의 원소를 하나 하나 순차적으로 확인하는 'Linear Search'가 있다. 이 'Linear Search'는 최악의 경우 배열의 끝까지 탐색할 수도 있기 때문에 배열의 크기에 비례한 O(N)의 복잡도를 가진다.
 
-이제 `Binary Search`는 탐색할 때 중간 인덱스의 값을 비교하여 절반씩 잘라서 탐색하는 방법으로, 한 번의 interval에 절반을 제거하게 되므로 O(logN)의 복잡도를 갖게 된다. 단, 이때 배열은 반드시 정렬되어 있어야 한다.
+이제 `Binary Search`는 탐색할 때 중간 인덱스의 값을 비교하여 절반씩 잘라서 탐색하는 방법으로, 한 번의 interval에 절반을 제거하게 되므로 `O(logN)`의 복잡도를 갖게 된다. 단, 이때 배열은 반드시 정렬되어 있어야 한다.
 
 ## Procedure
 
@@ -31,7 +31,7 @@ tags:
 
 ## Code Reference
 
-[source](https://github.com/lazyduo/algorithms-python/blob/main/search/binary_search.py)
+Github Repo : [source](https://github.com/lazyduo/algorithms-python/blob/main/search/binary_search.py)
 
 두 가지 방법이 있다. recursive 는 함수의 콜백으로 stack overflow 문제가 있을 수 있으니 되도록이면 지양하자. iterative 하게 하도록 노력!
 
