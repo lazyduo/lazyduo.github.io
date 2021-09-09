@@ -11,8 +11,9 @@ main:
 #   - title: "Daily"
 #     url: /daily/
 
-  - title: "Games"
-    url: /game/
+# 21-09-09 screening temporary
+#   - title: "Games"
+#     url: /game/
 
   - title: "Posts"
     url: /post/
