@@ -96,12 +96,15 @@ tech:
 
 # Games sidebar
 game:
-  - title: "PS5/PS4"
-    url: /game/playstation/
-  - title: "Nintendo Switch"
-    url: /game/NSwitch/
-  - title: "XBox"
-    url: /game/xbox/
+  - title: "Games"
+    url: /games/
+    children:
+    - title: "PS5/PS4"
+      url: /game/playstation/
+    - title: "Nintendo Switch"
+      url: /game/NSwitch/
+    - title: "XBox"
+      url: /game/xbox/
 
 # about sidebar
 about:
