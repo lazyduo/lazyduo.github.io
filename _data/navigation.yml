@@ -94,6 +94,15 @@ tech:
 #   - title: "About everything"
 #     url: /daily/about_everything/
 
+# Games sidebar
+game:
+  - title: "PS5/PS4"
+    url: /game/playstation/
+  - title: "Nintendo Switch"
+    url: /game/NSwitch/
+  - title: "XBox"
+    url: /game/xbox/
+
 # about sidebar
 about:
   - title: "Portfolio"
