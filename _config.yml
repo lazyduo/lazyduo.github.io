@@ -288,7 +288,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   game:
-    putput: true
+    output: true
     permalink: /:collection/:path/
   daily:
     output: true
@@ -347,7 +347,7 @@ defaults:
       type: about
     values:
       layout: single
-      suthor_profiel: true
+      author_profile: true
       read_time: true
       sidebar:
         nav: "about"
@@ -370,7 +370,7 @@ defaults:
       type: game
     values:
       layout: single
-      suthor_profiel: true
+      author_profile: true
       read_time: true
       sidebar:
         nav: "game"
@@ -381,7 +381,7 @@ defaults:
       type: daily
     values:
       layout: single
-      suthor_profiel: true
+      author_profile: true
       read_time: true
       sidebar:
         nav: "daily"
