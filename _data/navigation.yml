@@ -97,7 +97,7 @@ tech:
 # Games sidebar
 game:
   - title: "Games"
-    url: /games/
+    url: /game/
     children:
     - title: "PS5/PS4"
       url: /game/playstation/
@@ -105,6 +105,8 @@ game:
       url: /game/NSwitch/
     - title: "XBox"
       url: /game/xbox/
+    - title: "PC"
+      url: /game/pc/
 
 # about sidebar
 about:
