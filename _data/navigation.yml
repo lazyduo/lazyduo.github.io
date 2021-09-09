@@ -8,8 +8,11 @@ main:
 #   - title: "Translation"
 #     url: /translate/
 
-  - title: "Daily"
-    url: /daily/
+#   - title: "Daily"
+#     url: /daily/
+
+  - title: "Games"
+    url: /game/
 
   - title: "Posts"
     url: /post/
