@@ -287,6 +287,9 @@ collections:
   algorithm:
     output: true
     permalink: /:collection/:path/
+   game:
+    putput: true
+    permalink: /:collection/:path/
   daily:
     output: true
     permalink: /:collection/:path/
@@ -360,6 +363,17 @@ defaults:
       read_time: true
       sidebar:
         nav: "tech"
+        
+  # _game
+  - scope:
+      path: ""
+      type: game
+    values:
+      layout: single
+      suthor_profiel: true
+      read_time: true
+      sidebar:
+        nav: "game"
 
   # _daily
   - scope:
