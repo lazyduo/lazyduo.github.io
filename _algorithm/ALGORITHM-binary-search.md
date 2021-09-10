@@ -93,4 +93,4 @@ python은 알아서 어느 정도 자동으로 타입을 맞춰 주긴 하지만
 
 ## 참고
 
-geeksforgeeks.org/binary-search/
+https://www.geeksforgeeks.org/binary-search/
