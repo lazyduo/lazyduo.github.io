@@ -77,7 +77,7 @@ d = {}
 if 'list' not in d:
     d['list'] = []
 
-d.['list'].apeend(3)
+d['list'].append(3)
 
 # setdefault!!
 d.setdefault('list', []).append(3)
