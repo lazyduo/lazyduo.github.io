@@ -16,7 +16,7 @@ tags:
 
 ##  Intro
 
-`[Bubble Sort](https://lazyduo.github.io/algorithm/ALGORITHM-bubble-sort/)`가 인접 원소와 계속해서 비교하면서 자리 스왑이 일어 났다면, 
+[`Bubble Sort`](https://lazyduo.github.io/algorithm/ALGORITHM-bubble-sort/)가 인접 원소와 계속해서 비교하면서 자리 스왑이 일어 났다면, 
 `Selection Sort`  __정렬에서는 남은 정렬되지 않은 배열에서의 최소(혹은 최대)의 값이랑만 스왑이 한 번 일어 난다.__ 즉, 알고리즘 복잡도는 동일하게 O(n2)이지만, 
 스왑이 일어나는 횟수는 최대 n 번으로 메모리 운영 측면에서 조금 더 효율적인 알고리즘이라고 할 수 있다.
 
@@ -86,7 +86,7 @@ Stable Selection Sort would have produced
 Output : 1 2 3 4A 4B 5
 ```
 
-위의 `Stable Selection Sort` Code를 보면 min_idx를 i의 위치로 이동하면서 기존 배열 while 문에서 그대로 한 칸씩 밀고 있는 것을 볼 수 있다.
+위의 `Stable Selection Sort` Code를 보면 min_idx를 i의 위치로 이동하면서 기존 배열을 while 문에서 그대로 한 칸씩 밀고 있는 것을 볼 수 있다.
 
 ## 참고
 
