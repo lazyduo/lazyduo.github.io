@@ -88,6 +88,12 @@ Output : 1 2 3 4A 4B 5
 
 위의 `Stable Selection Sort` Code를 보면 min_idx를 i의 위치로 이동하면서 기존 배열을 while 문에서 그대로 한 칸씩 밀고 있는 것을 볼 수 있다.
 
+추가로, 이 정렬을 이용하면 k 번째 작은(큰) 항목을 O(kn)의 복잡도로 구할 수 있다. 정렬을 완료하고 다시 k 번째 값을 찾지 않고, 선택 알고리즘의 반복 횟수를 k 번으로 줄이면 된다.
+
+```
+for i in range(len(k)) -> for i in range(k)
+```
+
 ## 참고
 
 https://www.geeksforgeeks.org/selection-sort/
