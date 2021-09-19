@@ -14,8 +14,6 @@ tags:
 
 거의 1주일을 괴롭혔던 react-native ios build 문제가 드디어 해결! (새벽 3시 반..)
 
-최종 [podfile](https://github.com/lazyduo/my_dotfiles/blob/main/ios/Podfile)
-
 flipper를 쓰지 않으면 podfile에서 flipper 부분을 코멘트 처리하면 되니까 매우 문제가 쉬워진다.
 하지만 flipper를 쓰고 싶다면?? 문제가 복잡하다.
 
