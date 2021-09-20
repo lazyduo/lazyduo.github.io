@@ -33,7 +33,7 @@ Github Repo : [source](https://github.com/lazyduo/algorithms-python/blob/main/so
 - 기본형
 
 ```python
-def slsectionSort(arr):
+def selectionSort(arr):
     for i in range(len(arr)):
         
         min_idx = i
@@ -52,7 +52,7 @@ def slsectionSort(arr):
 'Stable'한 정렬에 관해서는 아래 Note에서 다루겠다.
 
 ```python
-def stableSlsectionSort(arr):
+def stableSelectionSort(arr):
     for i in range(len(arr)):
         
         min_idx = i
