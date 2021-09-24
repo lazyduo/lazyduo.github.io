@@ -14,3 +14,27 @@ tags:
 |Functional Testing|Non-Functional Testing|
 |Functional testing is performed using the functional specification provided by the client and verifies the system against the functional requirements.|Non-Functional testing checks the  Performance, reliability, scalability and other non-functional aspects of the software system.|
 |Functional testing is executed first|Non-functional testing should be performed after functional testing|
+|Manual Testing or automation tools can be used for functional testing|Using tools will be effective for this testing|
+|Business requirements are the inputs to functional testing|Performance parameters like speed, scalability are inputs to non-functional testing.|
+|Functional testing describes what the product does|Nonfunctional testing describes how good the product works|
+|Easy to do Manual Testing|Tough to do Manual Testing|
+|Examples of Functional testing are
+- Unit Testing
+- Smoke Testing
+- Sanity Testing
+- Integration Testing
+- White Box Testing
+- Black Box Testing
+- User Acception Testing
+- Regression Testing
+|Examples of Non-functional testing are
+- Performance Testing
+- Load Testing
+- Volume Testing
+- Stress Testing
+- Security Testing
+- Installation Testing
+- Penetration Testing
+- Compatibility Testing
+- Migration Testing
+|
