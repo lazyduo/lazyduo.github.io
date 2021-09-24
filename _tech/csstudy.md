@@ -1,5 +1,5 @@
 ---
-title: "Tech > ETC > Computer Architecture"
+title: "Tech > ETC > Computer Science Study"
 layout: tag
 taxonomy: computer
 classes: wide
@@ -7,10 +7,9 @@ author_profile: false
 sidebar:
     nav: "tech"
 ---
-Computer Architecture.
+Computer Science 전공지식 공부. (학습 내용이므로 잘못된 내용이 있을 수 있습니다)
 
-컴퓨터 구조 공부. (학습 내용이므로 잘못된 내용이 있을 수 있습니다)
-
+#  Computer Architecture
 ## Virtual Memory
 - 필요성 : 실제 주소로 바로바로 할당하면 fragment 들이 생겨서 메모리 낭비가 생김. 따라서 메모리를 효율적으로 쓰기 위해 알아서 잘 allocation 해주는 방법이 virtual memory, MMU 형태임.
 - MMU (Memory Management Unit) : Virtual Address를 Physical Memory로 변환.
