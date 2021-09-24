@@ -19,22 +19,22 @@ tags:
 |Functional testing describes what the product does|Nonfunctional testing describes how good the product works|
 |Easy to do Manual Testing|Tough to do Manual Testing|
 |Examples of Functional testing are
-- Unit Testing
-- Smoke Testing
-- Sanity Testing
-- Integration Testing
-- White Box Testing
-- Black Box Testing
-- User Acception Testing
-- Regression Testing
+<ul><li>Unit Testing</li>
+<li>Smoke Testing</li>
+<li>Sanity Testing</li>
+<li>Integration Testing</li>
+<li>White Box Testing</li>
+<li>Black Box Testing</li>
+<li>User Acception Testing</li>
+<li>Regression Testing</li></ul>
 |Examples of Non-functional testing are
-- Performance Testing
-- Load Testing
-- Volume Testing
-- Stress Testing
-- Security Testing
-- Installation Testing
-- Penetration Testing
-- Compatibility Testing
-- Migration Testing
+<ul><li>Performance Testing</li>
+<li>Load Testing</li>
+<li>Volume Testing</li>
+<li>Stress Testing</li>
+<li>Security Testing</li>
+<li>Installation Testing</li>
+<li>Penetration Testing</li>
+<li>Compatibility Testing</li>
+<li>Migration Testing</li></ul>
 |
