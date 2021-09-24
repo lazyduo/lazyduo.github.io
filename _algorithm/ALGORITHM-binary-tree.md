@@ -71,6 +71,8 @@ class Node:
 value 값으로 부터 `Node`를 찾는 방법을 생각해 보자.
 순서대로 리스트에 `Node`를 추가하는 것도 좋은 방법일듯.
 
+'inorder'가 한글로 '중위 순회'이다. 헷갈릴 법 한데, root 기준으로 '차례로'가 left-root-right라고 생각하면 외우기 쉽다. pre-order는 root를 '먼저(pre)' 방문한다는 의미로 한글로 '전위' 순회
+
 ## 참고
 
 https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
