@@ -44,7 +44,7 @@ author_profile: true
 
 ## Tech Stack
 
-- Python, Django, React, C/C++
+- Python, Django, React, React-Native, C/C++
 
 - Beginner : HTML / CSS, JS, TensorFlow, Docker, AWS, Jekyll.. etc
 

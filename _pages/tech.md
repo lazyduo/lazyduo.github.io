@@ -20,9 +20,4 @@ Technology, Project 관련 개인 정리 공간입니다.
 - [Language](/tech/language/)
 - [ETC](/tech/ETC/)
 
-## TODO
-
-- AWS
-- React
-
 Recent Posts...
