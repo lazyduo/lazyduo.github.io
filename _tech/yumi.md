@@ -18,7 +18,7 @@ You and I! YUMI!
 
 서버 : Linux(Ubuntu)
 
-Database : MongoDB
+Database : Postgres
 
 Backend : Django
 
