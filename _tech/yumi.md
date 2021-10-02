@@ -22,7 +22,7 @@ Database : MongoDB
 
 Backend : Django
 
-Frontend : React
+Frontend : React, React-Native
 
 그 외 : Docker, Django REST Framework 등
 
@@ -40,4 +40,8 @@ Frontend : React
 
 21.09.04 Server AWS EC2로 이전. AWS Route 53 domain 구입 및 적용.
 
+21.09.19 모바일 버전 준비를 위한 React-Native iOS, Android Simulator 빌드 완료.
+
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo2.png){: .align-center}
