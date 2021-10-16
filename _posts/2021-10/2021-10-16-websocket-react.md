@@ -1,5 +1,5 @@
 ---
-title: "WebSocket feat. useContext"
+title: "WebSocket feat. React useContext"
 date: 2021-10-16 22:32:00 +0900
 classes: wide
 tags:
