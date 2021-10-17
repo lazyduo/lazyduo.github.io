@@ -135,3 +135,5 @@ console.log(ws.message)
 ## 참고
 
 [Link](https://www.pluralsight.com/guides/using-web-sockets-in-your-reactredux-app)
+
+[Sending real-time push notifications with Django, Celery and Redis](https://blog.devartis.com/sending-real-time-push-notifications-with-django-celery-and-redis-829c7f2a714f)
