@@ -34,7 +34,7 @@ Frontend : React, React-Native
 
 21.10.18 Notification 구현, 모바일 버전 디자인.
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-21-10-19.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-21-10-19-1.png){: .align-center}
 
 21.09.19 모바일 버전 준비를 위한 React-Native iOS, Android Simulator 빌드 완료.
 
