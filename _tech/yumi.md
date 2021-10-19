@@ -32,16 +32,20 @@ Frontend : React, React-Native
 
 ## Status
 
-21.08.12 TODO : navbar가 responsive하게 줄어들지 않는 부분, Button design.
+21.10.18 Notification 구현, 모바일 버전 디자인.
 
-21.08.18 중간점검 : template 디자인 적용, 퀘스트 수락 관련 기능 추가, 친구 기능 추가. 9/30 까지 web 버전 완성 필요. 11/30 까지 모바일 앱 목표. 화이팅.
-
-21.08.30 Shop 까지의 기능은 Web에서 구현 완료. 슬슬 React Native로 모바일 앱 준비 시작.
-
-21.09.04 Server AWS EC2로 이전. AWS Route 53 domain 구입 및 적용.
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-21-10-19.png){: .align-center}
 
 21.09.19 모바일 버전 준비를 위한 React-Native iOS, Android Simulator 빌드 완료.
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
-
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo2.png){: .align-center}
+
+21.09.04 Server AWS EC2로 이전. AWS Route 53 domain 구입 및 적용.
+
+21.08.30 Shop 까지의 기능은 Web에서 구현 완료. 슬슬 React Native로 모바일 앱 준비 시작.
+
+21.08.18 중간점검 : template 디자인 적용, 퀘스트 수락 관련 기능 추가, 친구 기능 추가. 9/30 까지 web 버전 완성 필요. 11/30 까지 모바일 앱 목표. 화이팅.
+
+21.08.12 TODO : navbar가 responsive하게 줄어들지 않는 부분, Button design.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/yumi-demo.png){: .align-center}
