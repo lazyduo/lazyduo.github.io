@@ -8,6 +8,7 @@ sidebar:
 tags:
     - python
     - algorithm
+    - leetcode
 ---
 
 주어진 `Linked List` 클래스의 Traversal과, 숫자를 다시 `Linked List`로 만드는 것이 관건.

@@ -8,6 +8,7 @@ sidebar:
 tags:
     - python
     - algorithm
+    - leetcode
 ---
 
 Medium. 'word cnt'를 주면서 중복 수인 'k'와 일치하는지 확인 후 일치 한다면 스택에서 'pop()'시키는 것이 포인트. 'pop()' 이후에는 다시 현재 스택의 마지막 'word'와 일치하는지 체크하며 카운트를 늘려 나간다.

@@ -8,6 +8,7 @@ sidebar:
 tags:
     - python
     - algorithm
+    - dp
 ---
 
 Easy. Blind 72 LeetCode Questions. `Dynamic Programming`의 정말 기초적인 문제로 처음 접하는 사람에게 설명할 때 유용할 문제인 것 같다.

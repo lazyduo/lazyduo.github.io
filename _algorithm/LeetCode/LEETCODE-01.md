@@ -8,6 +8,8 @@ sidebar:
 tags:
     - python
     - algorithm
+    - leetcode
+    - array
 ---
 
 간단하지만은 않은 문제. O(n2) 보다 효율적이게 풀어라!

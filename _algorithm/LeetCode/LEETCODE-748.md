@@ -8,6 +8,7 @@ sidebar:
 tags:
     - python
     - algorithm
+    - leetcode
 ---
 
 크게 어렵진 않은데 이것저것 신경쓸게 있다.
