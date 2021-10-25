@@ -11,7 +11,7 @@ tags:
     - interval
 ---
 
-Medium. Blind 72 LeetCode Questions. `Interval`
+Medium. Blind 75 LeetCode Questions. `Interval`
 
 O(n)으로 해결. 'intervals'를 iteration 하면서 result 스택에 원소들을 추가 시킨다. 이 때 newInterval이 현재 interval에 겹치는 경우 스택에 추가하지 않고 새로운 newInterval을 업데이트 하는 방식으로 overlap을 해결함.
 

@@ -12,7 +12,7 @@ tags:
     - leetcode
 ---
 
-Easy. Blind 72 LeetCode Questions. `Array` 문제는 효율성을 따지면 Time Over가 뜨는 경우가 많으므로 항상 시간 복잡도를 고려해 주어야 한다.
+Easy. Blind 75 LeetCode Questions. `Array` 문제는 효율성을 따지면 Time Over가 뜨는 경우가 많으므로 항상 시간 복잡도를 고려해 주어야 한다.
 
 처음 풀이는 배열의 처음 부터 끝까지 3번의 탐색을 거쳐서 풀었다. 현재 index 까지의 최소값과 현재 index 이후의 최댓값 배열을 따로 만든 후, 다시 iteration 하면서 최대의 이윤을 남기는 값을 찾았다.
 
