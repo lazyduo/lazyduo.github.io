@@ -34,6 +34,18 @@ What is the difference between a compiled and an interpreted program?
 
 위에서 살펴본 Computer-specific copiled progrmas와 Interpreted Scripts의 중간단계로는 `programs designed for runtime environments`가 있다. Java와 Smailltalk의 경우 이 방법을 사용한다. 이러한 프로그램을 작성하는데 있어서는 기존의 컴파일 프로그램을 작성하는 것과 유사하다. 차이점은 소스코드를 머신 언어로 컴파일링 하는 대신, 런타임 환경의 가상 머신에서 작동하는 'Byte Code'로 만든다는 점이다. 가상 머신은 이 바이트 코드를 번역하여 컴퓨터에 맞는 명령어로 변환시켜준다. 이러한 접근법의 이점은, 런타임 환경이 전체 소스코드에서 필요한 부분만 즉시 컴파일한다는 점이다. 이를 `Just-in-time compiling`이라고 한다. 하지만 런타임 환경의 가장 큰 문제점은, 제대로 설계되지 않은 프로그램이 런타임 환경에서 거의 모든 코드를 미리 컴파일한 다음 인터프리터를 중복 호출하게 된다는 것이다. 이는 프로그램을 느리게 만든다.
 
+## 요약
+
+- Compiled Language: 특정 아키텍처가 이해할 수 있는 머신 언어로 컴파일 하는 과정이 있는 언어로, 컴파일 프로그램은 아키텍처가 일치한다면 빠르게 작동 가능하다. (assembly language: created for a CPU / Hardware)
+
+- Interpreted Language: 인터프리터만 있다면 어떠한 플랫폼에서도 동작 가능한 portable한 장점이 있다. (이는 장점이자 단점이 될 수도 있다.) 일반적으로 느리다는 단점이 있지만 디버그와 수정에 용이하다. 상대적으로 컴파일 언어에서 컴파일 파일을 만드는 과정 자체는 느려서 디버깅을 매번 컴파일 하면서 하기에는 굉장히 힘들기 때문. (Bytecode : generated for a virtual machine / Software)
+
+## 추가 질문
+
+그렇다면 Javascript는 compiled 언어일까, interpreted 언어일까? 우선 답은 Interpreted 언어이다. Javascript는 C++이나 Java 처럼 실행을 하기 위해서 compile을 따로 하는 과정이 없기 때문이다. 그렇다면 Javascript는 컴파일을 하지 않나? 이는 Compiled Language에서 말하는 compile과 질문에서의 compile이 약간 다른 의미로 해석되기 떄문에 답변하기 어렵게 만드는.. 어떻게 보면 질문자의 못된 장난이라고도 할 수 있겠다. Javascript 동작 방식을 보면, Compilation step이 따로 없고, 브라우저의 inpreter가 Javascript 코드의 각 라인을 읽어나가며 동작시킨다. 최신의 브라우저들은 위에서 언급한 `Just-In-Time(JIT) Compilation`이라고 불리우는 기술로 Javascript를 실행가능한 'bytecode'로 컴파일하여 동작 가능하게 한다.
+
+아무튼 Compiled Language의 정의를 하드웨어 혹은 머신이 이해할 수 있는 Assembly Language로 변환 하는 'Compilation' 과정이 있는 언어라고 한다면, Javascript는 Compiled 언어가 아닌 Interpreted 언어라고 확실하게 말할 수 있다.
+
 ## reference
 
 [link](https://kb.iu.edu/d/agsz)
