@@ -64,3 +64,7 @@ New Laptop!! My first Mac. ([Dev Set Up](https://www.youtube.com/watch?v=tMNOpaQ
 Setting up my Mac... git push test
 
 to be continued...
+
+2021-Nov-20
+
+Django memo : filter 'friends = me.friends.filter(username__icontains=query)'
