@@ -32,3 +32,47 @@ es.info()
 ```python
 es.delete_by_query(index=index_name, body={'query': {'match_all': {}}})
 ```
+
+## mapping
+
+```python
+#mapping
+mappings = {
+    'properties': {
+        'img_path': {
+            'type': 'text'
+        },
+        'vector_data': {
+            'type': 'dense_vector',
+            'dims': 1440
+        },
+        'vector_data_string': {
+            'type': 'text'
+        }
+    }
+}
+
+es.indices.create(index=index_name, mappings=mappings)
+```
+
+## query for dense_vector type
+
+used cosineSimilarity
+
+```python
+query = {
+    'script_score': {
+        'query': {
+            'match_all': {},
+        },
+        'script': {
+            'source': "cosineSimilarity(params.query_vector, 'vector_data')",
+            'params': {
+                'query_vector': features_test
+            }
+        }
+    }
+}
+
+res = es.search(index=index_name, query=query)
+```
