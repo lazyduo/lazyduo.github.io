@@ -23,9 +23,12 @@ AIML을 위한 GPU server rack 설계하기. 아래 영상 메모.
 
 1. Hyperpaameter search
     - Finding the best model
+    - 여러 모델 중 가장 적합한 모델 찾기.
 
 2. Large scale distributed training
     - Quickly training a model
+    - 엄청나게 많은 데이터셋을 한 모델에 훈련시키기.
 
 3. Production inference
     - Deploying the model at scale to production
+    - 서비스화 된 AI 모델을 사용자 요청에 따라 수행하기.
