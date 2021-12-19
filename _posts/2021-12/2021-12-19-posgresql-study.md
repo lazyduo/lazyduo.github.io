@@ -28,11 +28,11 @@ GPU를 사용하는 데이터베이스를 만들자...!!! (회사 일을 위한 
 
 Tablespace → version specific subdirectory? database 의 버전을 특정하기 위해서?
 
-![image-center](Postgres%20+%20GPU%20459b214ee046419fb2e957d8875f331e/Untitled%202.png)
+![tablespace]({{ site.url }}{{ site.baseurl }}/assets/images/db_images/db-1.png){: .align-center}
 
 ### Heap Table File
 
-![image-center](Postgres%20+%20GPU%20459b214ee046419fb2e957d8875f331e/Untitled%203.png)
+![heap-table]({{ site.url }}{{ site.baseurl }}/assets/images/db_images/db-2.png){: .align-center}
 
 - heap tuple - record data
 - line pointers - heap tuple을 가리키는 포인터, 새로운 레코드가 생기면 새로운 포인터가 생김. 각 번호는 offset number로 불리며 1부터 차례대로 매겨짐.
@@ -40,10 +40,10 @@ Tablespace → version specific subdirectory? database 의 버전을 특정하�
 - Tuple idendifier(TID) → table file의 block number로 해당 페이지, line ponter의 offset number로 해당 튜플을 찾음.
 - Writing - pd_lower, pd_upper가 튜플의 처음과 끝 line pointer를 가리킴.
 
-![image-center](Postgres%20+%20GPU%20459b214ee046419fb2e957d8875f331e/Untitled%204.png)
+![writing]({{ site.url }}{{ site.baseurl }}/assets/images/db_images/db-3.png){: .align-center}
 
 - Reading
     - Sequential Scan : Index 없이 차례로 모든 페이지(block), heap tuple 검색
     - Index Scan : Index Tuple에 맞는 Key가 있다면 TID(block, offset)으로 바로 힙튜플을 찾아감.
 
-![image-center](Postgres%20+%20GPU%20459b214ee046419fb2e957d8875f331e/Untitled%205.png)
+![reading]({{ site.url }}{{ site.baseurl }}/assets/images/db_images/db-4.png){: .align-center}
