@@ -32,3 +32,9 @@ SSH Server 연결하기.
 
 - SSH Tunnel
     타겟 서버를 등록하면 된다. Tunnel Host에는 타겟 ip 주소, 접속하고자 하는 계정 이름과 비밀번호를 세팅한다. 보통 22 port로 외부로 열려 있으니 port는 22로 그대로 두면 된다.
+
+## Need to Read
+
+[한눈에 살펴보는 PostgreSQL](https://d2.naver.com/helloworld/227936)
+
+[The Internels of PostgreSQL](https://www.interdb.jp/pg/index.html)
