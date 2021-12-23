@@ -47,3 +47,13 @@ Tablespace → version specific subdirectory? database 의 버전을 특정하�
     - Index Scan : Index Tuple에 맞는 Key가 있다면 TID(block, offset)으로 바로 힙튜플을 찾아감.
 
 ![reading]({{ site.url }}{{ site.baseurl }}/assets/images/db_image/db-4.png){: .align-center}
+
+## Terms
+
+- **Dirty Pages**
+    Dirty pages are the pages in the memory buffer that have modified data, yet the data is not moved from memory to disk.
+
+    페이지가 modify는 되었지만 아직 디스크에는 쓰여지지 않은 상태
+
+- **Clean Pages**
+    Clean pages are the pages in a memory buffer that have modified data but the data is moved from memory to disk.
