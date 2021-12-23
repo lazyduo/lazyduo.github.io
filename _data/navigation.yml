@@ -54,6 +54,11 @@ tech:
         url: /tech/HTMLCSSJS/
       - title: "React"
         url: /tech/react/
+  - title: "Database"
+    url: /tech/database/
+    children:
+      - title: "PostgreSQL"
+        url: /tech/postgres/
   - title: "Algorithm"
     url: /tech/algorithm/
   - title: "ETC Project"
