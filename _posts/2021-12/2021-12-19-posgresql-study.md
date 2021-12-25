@@ -48,6 +48,15 @@ Tablespace → version specific subdirectory? database 의 버전을 특정하�
 
 ![reading]({{ site.url }}{{ site.baseurl }}/assets/images/db_image/db-4.png){: .align-center}
 
+### Query Processing
+
+1. Parser
+2. Analyzer / Analyser
+3. Rewriter
+4. Planner
+5. Executor
+
+
 ## Terms
 
 - **Dirty Pages**
