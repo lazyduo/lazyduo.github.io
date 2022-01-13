@@ -1,5 +1,5 @@
 ---
-title: "GitHub Personal Acess Token"
+title: "GitHub Personal Access Token"
 date: 2021-08-15 23:41:00 +0900
 classes: wide
 tags:
