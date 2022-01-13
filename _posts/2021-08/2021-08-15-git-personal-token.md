@@ -7,6 +7,7 @@ tags:
     - ETC
     - Github_Pages
     - github
+    - git
 ---
 
 2021, Aug 13th 부터 terminal을 통한 github 연결 시 기존의 username, password로 쳐서 들어가는 방법이 제한 되었다.

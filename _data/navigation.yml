@@ -64,8 +64,8 @@ tech:
   - title: "ETC Project"
     url: /tech/ETC/
     children:
-      - title: "GitHub Pages"
-        url: /tech/GitHub-Pages/
+      - title: "Git / Hub / Lab"
+        url: /tech/git/
       - title: "DevOps"
         url: /tech/devops/
       - title: "Crypto"

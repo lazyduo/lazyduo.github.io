@@ -6,6 +6,7 @@ tags:
     - tech
     - ETC
     - Github_Pages
+    - git
 ---
 
 빡쳐서 쓰는 글. 새로운 포스트 썼을 뿐인데 **Build Error** 메일이 날라왔다.
