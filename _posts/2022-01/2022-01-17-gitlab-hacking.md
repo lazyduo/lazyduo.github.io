@@ -10,7 +10,7 @@ tags:
     - mining
 ---
 
-kthreaddk 라는 process가 지속적으로 CPU를 점유하고, 새로운 git session을 만들고 있었음.
+`kthreaddk` 라는 process가 지속적으로 CPU를 점유하고, 새로운 git session을 만들고 있었음.
 
 *(hacker가 mining 하려고 심은거라고 함)*
 
