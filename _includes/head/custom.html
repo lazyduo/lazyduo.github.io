@@ -4,9 +4,16 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-{% if page.mermaid %}
-  {% include mermaid.html %}
-{% endif %}
+<script type="text/javascript"
+  src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    mermaid.initialize({
+        theme: 'forest'
+    });
+});
+</script>
 
 {% comment %} <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico"> {% endcomment %}
 
