@@ -4,6 +4,9 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+{% if page.mermaid %}
+  {% include mermaid.html %}
+{% endif %}
 
 {% comment %} <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico"> {% endcomment %}
 
